@@ -1,0 +1,106 @@
+/*
+1, 4, 9
+13, 17, 23
+22, 27, 34
+*/
+
+/* Parallax */
+
+.parallax {
+	height: 100vh;
+	background-image: url('../assets/img/setup.jpg');
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.conteudo {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	margin-left: auto;
+	margin-right: auto;
+  	top: 65vh;
+	text-align: center;
+}
+
+/* Animação de escrita */
+
+.writer::after{
+	content: '|';
+	opacity: 0;
+	animation: blink 2s;
+}
+
+@keyframes blink{
+	0%, 100%{
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.5;
+	}
+}
+
+/* Estilo de classes personalizados */
+
+.bg-vidro{
+	backdrop-filter: blur(5px) saturate(100%);
+	-webkit-backdrop-filter: blur(5px) saturate(100%);
+	background-color: rgba(17, 25, 40, 0.7);
+	border-radius: 12px;
+	box-shadow: 0 0 5px #20c997;
+}
+
+.bg-tecnologia-parallax{
+	background-image: url(../assets/img/parallax.jpg);
+	box-shadow:inset 0 0 20px rgb(33, 37, 41);
+	background-position: bottom;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.bg-web{background: rgb(22, 27, 34) !important;}
+.bg-web-dark{background: rgb(32, 39, 49) !important;}
+
+.text-github{color: rgba(255, 255, 255, .5) !important;}
+.text-linkedin{color: rgba(9, 118, 180, .5) !important;}
+.text-instagram{color: rgba(221, 42, 123, .5) !important;}
+.text-whatsapp{color: rgba(54, 197, 35, .5) !important;}
+
+.text-github:hover{color: rgba(255, 255, 255) !important;}
+.text-linkedin:hover{color: rgba(9, 118, 180) !important;}
+.text-instagram:hover{color: rgba(221, 42, 123) !important;}
+.text-whatsapp:hover{color: rgba(54, 197, 35) !important;}
+
+.color-html{color: #F1652B;}
+.color-css{color: #2DABDD;}
+.color-bootstrap{color: #662fb4;}
+.color-java{color: #0A738B;}
+.color-javascript{color: #FFD83D;}
+.color-mysql{color: #006F88;}
+.color-angular{color: #DD0031;}
+.color-git{color: #F34F29;}
+
+/* Animação de elementos  */
+
+[data-anime]{
+	opacity: 0;
+	transition: 1s;
+}
+
+[data-anime="up"]{
+	transform: translate3d(0, 50px, 0);
+}
+
+[data-anime="down"]{
+	transform: translate3d(0, -50px, 0);
+}
+
+[data-anime="right"]{
+	transform: translate3d(-50px, 0, 0);
+}
+
+
+[data-anime].animate {
+  	opacity: 1;
+  	transform: translate3d(0 ,0 ,0);
+}
