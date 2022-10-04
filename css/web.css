@@ -51,15 +51,7 @@
 	box-shadow: 0 0 5px #20c997;
 }
 
-.inclina-div{
-	transform: skewy(.5deg);
-}
-
-.desenclina-conteudo{
-	transform: skewY(-.5deg);
-}
-
-.bg-tecnologia-parallax{
+.bg-experiencia-parallax{
 	background-image: url(../assets/img/parallax.jpg);
 	box-shadow:inset 0 0 20px rgb(33, 37, 41);
 	background-position: bottom;
@@ -79,14 +71,20 @@
 .text-instagram:hover{color: rgba(221, 42, 123) !important;}
 .text-whatsapp:hover{color: rgba(54, 197, 35) !important;}
 
-.color-html{color: #F1652B;}
-.color-css{color: #2DABDD;}
-.color-bootstrap{color: #662fb4;}
-.color-java{color: #0A738B;}
-.color-javascript{color: #FFD83D;}
-.color-mysql{color: #006F88;}
-.color-angular{color: #DD0031;}
+.color-html{color: #E44D26;}
+.color-css{color: #1572B6;}
+.color-bootstrap{color: #9013fe;}
+.color-javascript{color: #F0DB4F;}
+.color-angular{color: #C31030;}
 .color-git{color: #F34F29;}
+
+.color-java{color: #0074BD;}
+.color-php{color: #6181B6;}
+.color-cplusplus{color: #D26383;}
+.color-python{color: #FFD845;}
+
+.color-mysql{color: #006F88;}
+.color-oracle{color: #EA1B22;}
 
 /* Animação de elementos  */
 
