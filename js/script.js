@@ -1,37 +1,3 @@
-//Animação para o data-anime
-const dataAnime = document.querySelectorAll("[data-anime]");
-
-const animeScroll = () => {
-  const windowTop = window.pageYOffset + window.innerHeight * .9;
-
-  dataAnime.forEach(
-    (element) => {
-      if (windowTop > element.offsetTop) {
-        element.classList.add("animate");
-      } else {
-        element.classList.remove("animate");
-      }
-    }
-  );
-};
-
-animeScroll();
-
-window.addEventListener("scroll", ()=>{
-  animeScroll();
-});
-
-//Animação escrita
-const escritaItem = document.querySelector(".writer");
-typeWriter(escritaItem);
-function typeWriter(element) {
-  const textArray = element.innerHTML.split('');
-  element.innerHTML = '';
-  textArray.forEach((letra, i) =>{
-    setTimeout(() => element.innerHTML += letra, 75 * i)
-  });
-}
-
 $(document).ready(function() {
   tabHabilidadeChecked();
   $('input:radio[name="tab-habilidade"]').change(function() {
@@ -87,14 +53,58 @@ function tabHabilidadeChecked(){
   }
 }
 
-//
-const bemvindos = document.querySelector("#boas-vindas")
-var date = new Date().toLocaleTimeString().substring(0,2);
-
-if(date<=12){
-  bemvindos.innerHTML += ", bom dia!"  
-}else if(date<=18){
-  bemvindos.innerHTML += ", boa tarde!"  
-}else if(date<=24){
-  bemvindos.innerHTML += ", boa noite!"  
+window.onload = function() {
+  typeWriter();
+  updateGreetings();
+  updateCopyright();
 }
+
+
+//Animação escrita
+function typeWriter() {
+  const element = document.querySelector(".writer")
+  const textArray = element.innerHTML.split('');
+  element.innerHTML = '';
+  textArray.forEach((letra, i) =>{
+    setTimeout(() => element.innerHTML += letra, 75 * i)
+  });
+}
+
+//Texto automatico saudação
+function updateGreetings(){
+  const bemvindos = document.querySelector("#boas-vindas")
+  const date = new Date().toLocaleTimeString().substring(0,2);
+  if(date<=12){
+    bemvindos.innerHTML += ", bom dia!"  
+  }else if(date<=18){
+    bemvindos.innerHTML += ", boa tarde!"  
+  }else if(date<=24){
+    bemvindos.innerHTML += ", boa noite!"  
+  }
+}
+
+//Texto automatico copyRight
+function updateCopyright() {
+  const currentYear = new Date().getFullYear();
+  document.getElementById("copyright").innerHTML = `Copyright ${currentYear}. by - Paulo Marques Gonçalves`;
+}
+
+window.addEventListener("scroll", ()=>{
+  animeScroll();
+});
+
+//Animação para o data-anime
+const animeScroll = () => {
+  const dataAnime = document.querySelectorAll("[data-anime]");
+  const windowTop = window.pageYOffset + window.innerHeight * .9;
+
+  dataAnime.forEach(
+    (element) => {
+      if (windowTop > element.offsetTop) {
+        element.classList.add("animate");
+      } else {
+        element.classList.remove("animate");
+      }
+    }
+  );
+};
