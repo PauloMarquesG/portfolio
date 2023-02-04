@@ -1,5 +1,7 @@
 # Site Portfólio
 
+![Foto do site do portfólio](assets/foto-portfolio.png)
+
 # Índice
 - [Site Portfólio](#site-portfólio)
 - [Índice](#índice)
