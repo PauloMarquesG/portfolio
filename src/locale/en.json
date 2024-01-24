@@ -1,0 +1,28 @@
+{
+    "translation": {
+        "header": {
+            "title": "Protfolio",
+            "nav": {
+                "about": "About",
+                "skills": "Skills",
+                "projects": "Projects",
+                "contact": "Contact"
+            }
+        },
+        "about": {
+            "title": "About"
+        },
+        "skills": {
+            "title": "Skills"
+        },
+        "projects": {
+            "title": "Projects"
+        },
+        "contact": {
+            "title": "Contact"
+        },
+        "footer": {
+            "copyRight": "All rights reserved."
+        }
+    }
+}

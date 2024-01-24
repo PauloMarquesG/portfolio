@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    padding-inline: 20vw;
+    background-color: var(--bg-color-primary);
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding-inline: 10vw;
+    }
+}
