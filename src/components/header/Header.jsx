@@ -23,10 +23,10 @@ function Header() {
                 <h1>{t("header.title")}</h1>
                 <button onClick={handleHamburger} className='hamburger'></button>
                 <ul className='nav-list'>
+                    <li><a className='nav-link' href="#">{t("header.nav.home")}</a></li>
                     <li><a className='nav-link' href="#">{t("header.nav.about")}</a></li>
                     <li><a className='nav-link' href="#">{t("header.nav.skills")}</a></li>
                     <li><a className='nav-link' href="#">{t("header.nav.projects")}</a></li>
-                    <li><a className='nav-link' href="#">{t("header.nav.contact")}</a></li>
                 </ul>
 
             </nav>

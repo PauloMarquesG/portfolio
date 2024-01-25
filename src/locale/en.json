@@ -6,7 +6,7 @@
                 "about": "About",
                 "skills": "Skills",
                 "projects": "Projects",
-                "contact": "Contact"
+                "home": "Home"
             }
         },
         "presentation": {
@@ -39,9 +39,6 @@
         },
         "projects": {
             "title": "Projects"
-        },
-        "contact": {
-            "title": "Contact"
         },
         "footer": {
             "copyRight": "All rights reserved."
