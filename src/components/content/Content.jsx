@@ -3,15 +3,17 @@ import './Content.css'
 import About from './about/About.jsx'
 import Contact from './contact/Contact.jsx'
 import Portfolio from './portfolio/Portfolio.jsx'
+import Presentation from './presentation/Presentation.jsx'
 import Skills from './skills/Skills.jsx'
 
 function Content() {
     return (
         <main>
-            <About></About>
+            <Presentation></Presentation>
+            {/* <About></About>
             <Skills></Skills>
             <Portfolio></Portfolio>
-            <Contact></Contact>
+            <Contact></Contact> */}
         </main>
     )
 }

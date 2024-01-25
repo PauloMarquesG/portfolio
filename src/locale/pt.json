@@ -9,6 +9,25 @@
                 "contact": "Contato"
             }
         },
+        "presentation": {
+            "greetings": {
+                "good-morning": "Bom dia!",
+                "good-afternoon": "Boa tarde!",
+                "good-evening": "Boa noite!",
+                "good-dawn": "Boa madrugada!"
+            },
+            "welcome": "Bem-vindo(a)!",
+            "text-1": {
+                "phrase":   "Olá, eu sou desenvolvedor ",
+                "key-word":  "Full Stack!"
+            },
+            "text-2": {
+                "phrase-1": "Tenho 5 anos de experiência com programação. Minha especialidade está no ",
+                "phrase-2": ", mas não posso negar minha paixão por criar interfaces cativantes no ",
+                "key-word-1": "Back-End",
+                "key-word-2": "Front-End."
+            }
+        },
         "about": {
             "title": "Sobre"
         },

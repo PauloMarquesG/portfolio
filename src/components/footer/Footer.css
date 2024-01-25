@@ -2,5 +2,6 @@ footer {
     background-color: var(--bg-color-primary);
     display: flex;
     padding-block: 1.8rem;
+    align-items: center;
     justify-content: center;
 }

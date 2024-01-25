@@ -9,6 +9,25 @@
                 "contact": "Contact"
             }
         },
+        "presentation": {
+            "greetings": {
+                "good-morning": "Good morning!",
+                "good-afternoon": "Good afternoon!",
+                "good-evening": "Good evening!",
+                "good-dawn": "Good dawn!"
+            },
+            "welcome": "Welcome!",
+            "text-1": {
+                "phrase":   "Hi, I'm a Developer ",
+                "key-word":  "Full Stack!"
+            },
+            "text-2": {
+                "phrase-1": "I possess 5 years of programming experience. While my primary focus is on ",
+                "phrase-2": "development, I cannot deny my passion for crafting captivating interfaces on the ",
+                "key-word-1": "Back-End ",
+                "key-word-2": "Front-End."
+            }
+        },
         "about": {
             "title": "About"
         },

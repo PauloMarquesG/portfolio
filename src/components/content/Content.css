@@ -1,8 +1,10 @@
 main {
     display: flex;
     padding-inline: 20vw;
+    padding-block: 2rem;
     background-color: var(--bg-color-primary);
     flex-direction: column;
+    gap: 4rem;
 }
 
 @media (max-width: 768px) {
