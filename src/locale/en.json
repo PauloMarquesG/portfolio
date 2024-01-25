@@ -22,8 +22,9 @@
                 "key-word":  "Full Stack!"
             },
             "text-2": {
-                "phrase-1": "I possess 5 years of programming experience. While my primary focus is on ",
-                "phrase-2": "development, I cannot deny my passion for crafting captivating interfaces on the ",
+                "phrase-1": "I possess ",
+                "phrase-2": " years of programming experience. While my primary focus is on ",
+                "phrase-3": "development, I cannot deny my passion for crafting captivating interfaces on the ",
                 "key-word-1": "Back-End ",
                 "key-word-2": "Front-End."
             }

@@ -22,8 +22,9 @@
                 "key-word":  "Full Stack!"
             },
             "text-2": {
-                "phrase-1": "Tenho 5 anos de experiência com programação. Minha especialidade está no ",
-                "phrase-2": ", mas não posso negar minha paixão por criar interfaces cativantes no ",
+                "phrase-1": "Tenho ",
+                "phrase-2": " anos de experiência com programação. Minha especialidade está no ",
+                "phrase-3": ", mas não posso negar minha paixão por criar interfaces cativantes no ",
                 "key-word-1": "Back-End",
                 "key-word-2": "Front-End."
             }

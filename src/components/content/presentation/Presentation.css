@@ -47,7 +47,7 @@ section .intro {
     gap: 2rem;
 }
 
-.social a {
+.social abbr a {
     color: var(--text-color);
     font-size: 18pt;
     padding: 1.4rem;
