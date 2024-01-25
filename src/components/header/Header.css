@@ -1,12 +1,18 @@
 header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+    height: 8vh;
     background-color: var(--bg-color-primary);
 }
 
 .nav {
     display: flex;
+    height: 8vh;
     justify-content: space-around;
     align-items: center;
-    height: 8vh;
+
 }
 
 .nav-list {
@@ -50,9 +56,15 @@ header {
 }
 
 @media (max-width: 768px) {
+    header {
+        top: auto;
+        bottom: 0;
+    }
+
     .nav-list {
         position: absolute;
-        top: 8vh;
+        border-top-left-radius: 15px;
+        bottom: 8vh;
         right: 0;
         width: 50vw;
         height: 92vh;
@@ -96,8 +108,6 @@ header {
         transform: translateX(0);
     }
 }
-
-
 
 .nav.active .hamburger {
     border-top-color: transparent;

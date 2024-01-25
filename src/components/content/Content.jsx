@@ -10,10 +10,10 @@ function Content() {
     return (
         <main>
             <Presentation></Presentation>
-            {/* <About></About>
+            <About></About>
             <Skills></Skills>
             <Portfolio></Portfolio>
-            <Contact></Contact> */}
+            <Contact></Contact>
         </main>
     )
 }

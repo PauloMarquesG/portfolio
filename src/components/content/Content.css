@@ -1,5 +1,6 @@
-main {
+main{
     display: flex;
+    margin-top: 8vh;
     padding-inline: 20vw;
     padding-block: 2rem;
     background-color: var(--bg-color-primary);
@@ -8,7 +9,8 @@ main {
 }
 
 @media (max-width: 768px) {
-    main {
+    main{
+        margin-top: 0vh;
         padding-inline: 10vw;
     }
 }
