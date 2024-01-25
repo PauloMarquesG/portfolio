@@ -3,10 +3,10 @@
         "header": {
             "title": "Protfólio",
             "nav": {
+                "home": "Início",
                 "about": "Sobre",
                 "skills": "Habilidades",
-                "projects": "Projetos",
-                "contact": "Contato"
+                "projects": "Projetos"                
             }
         },
         "presentation": {
@@ -39,9 +39,6 @@
         },
         "projects": {
             "title": "Projetos"
-        },
-        "contact": {
-            "title": "Contato"
         },
         "footer": {
             "copyRight": "Todos os direitos reservados."
