@@ -21,6 +21,8 @@ function Presentation() {
         setGreetings(greeting || t("presentation.welcome"));
     }, [language]);
 
+    const teste = "Paulo_CV.pdf";
+
     return (
         <section>
             <div className='intro'>
@@ -44,6 +46,10 @@ function Presentation() {
                         {t('presentation.text-2.phrase-3')}
                         <span className="emphasis">{t('presentation.text-2.key-word-2')}</span>
                     </p>
+                    <div className='btn-presentation'>
+                        <a href='/public/doc/CV/PauloMarquesGoncalves_CV.pdf' target="_blank" className='btn'><p>{t("presentation.curriculum")}</p></a>
+                        <a href='mailto:paulomarquesg06@gmail.com' target='_blank' className='btn'><p>{t("presentation.email")}</p></a>
+                    </div>
                 </div>
             </div>
             <div className='info'>

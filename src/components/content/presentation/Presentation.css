@@ -34,6 +34,32 @@ section .intro {
     border-radius: 45%;
 }
 
+.btn-presentation {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.btn-presentation .btn {
+    max-width: 100vw;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    box-shadow: 2px 2px 0 var(--color-primary);
+    border-radius: 15px;
+    transition: all .4s;
+    background: linear-gradient(to left, var(--bg-color-primary), var(--bg-color-second));
+}
+
+.btn-presentation .btn:hover {
+    opacity: .9;
+    box-shadow: 4px 4px 0 var(--color-primary);
+}
+
+.btn-presentation .btn p {
+    font-size: 14pt;
+}
+
 .info {
     display: flex;
     justify-content: space-between;
@@ -53,6 +79,7 @@ section .intro {
     padding: 1.4rem;
     opacity: .5;
     border-radius: 50%;
+    transition: all .4s;
     background-color: var(--bg-color-second);
 }
 
@@ -78,12 +105,9 @@ section .intro {
     .info {
         margin-block: 2rem;
         flex-direction: column;
+        gap: 2rem;
     }
-
-    .language,
-    .social {
-        margin-block: 1rem !important;
-    }
+    
 }
 
 .en-us,
@@ -91,7 +115,6 @@ section .intro {
     position: relative;
     width: 2.5rem;
     height: 2rem;
-    box-shadow: 0px 0px 5px var(--color-primary);
     border: none;
     cursor: pointer;
     border-radius: 5px;
