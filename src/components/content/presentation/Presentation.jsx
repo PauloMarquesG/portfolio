@@ -17,14 +17,14 @@ function Presentation() {
             hour <= 6 ? t("presentation.greetings.good-dawn") :
                 hour <= 12 ? t("presentation.greetings.good-morning") :
                     hour <= 18 ? t("presentation.greetings.good-afternoon") :
-                        hour <= 24 ? t("presentation.greetings.good-evening") : '';
+                        hour <= 21 ? t("presentation.greetings.good-evening") : '';
         setGreetings(greeting || t("presentation.welcome"));
     }, [language]);
 
     const teste = "Paulo_CV.pdf";
 
     return (
-        <section>
+        <section className='presentation'>
             <div className='intro'>
                 <div className="photo-name">
                     <div className='name-rotate'>
@@ -40,15 +40,14 @@ function Presentation() {
                     </h1>
                     <p>
                         {t('presentation.text-2.phrase-1')}
-                        {countYears}
+                        <b className='emphasis'>{countYears}</b>
                         {t('presentation.text-2.phrase-2')}
-                        <span className="emphasis">{t('presentation.text-2.key-word-1')}</span>
+                        <b className="emphasis">{t('presentation.text-2.key-word-1')}</b>
                         {t('presentation.text-2.phrase-3')}
-                        <span className="emphasis">{t('presentation.text-2.key-word-2')}</span>
+                        <b className="emphasis">{t('presentation.text-2.key-word-2')}</b>
                     </p>
                     <div className='btn-presentation'>
-                        <a href='/public/doc/CV/PauloMarquesGoncalves_CV.pdf' target="_blank" className='btn'><p>{t("presentation.curriculum")}</p></a>
-                        <a href='mailto:paulomarquesg06@gmail.com' target='_blank' className='btn'><p>{t("presentation.email")}</p></a>
+                        <a href='mailto:paulomarquesg06@gmail.com' target='_blank' className='btn'><p>{t("presentation.email")} <i className="fa-regular fa-envelope"></i></p></a>
                     </div>
                 </div>
             </div>
@@ -58,10 +57,10 @@ function Presentation() {
                     <abbr title="EN-US"><button className={`en-us ${language === 'en' ? '' : 'disabled'}`} type="button" onClick={() => { changeLanguage('en') }} disabled={language === 'en'}></button></abbr>
                 </div>
                 <div className='social'>
-                    <abbr title="Paulo Marques Gonçalves - Linkedin"><a href="http://" target="_blank" rel="Paulo Marques Gonçalves Linkedin"><i className="fa-brands fa-linkedin-in"></i></a></abbr>
-                    <abbr title="Paulo Marques Gonçalves - GitHub"><a href="http://" target="_blank" rel="Paulo Marques Gonçalves GitHub"><i className="fa-brands fa-github"></i></a></abbr>
-                    <abbr title="Paulo Marques Gonçalves - Behance"><a href="http://" target="_blank" rel="Paulo Marques Gonçalves Behance"><i className="fa-brands fa-behance"></i></a></abbr>
-                    <abbr title="Paulo Marques Gonçalves - Instagram"><a href="http://" target="_blank" rel="Paulo Marques Gonçalves Instagram"><i className="fa-brands fa-instagram"></i></a></abbr>
+                    <abbr title="Paulo Marques Gonçalves - Linkedin"><a href="https://www.linkedin.com/in/paulo-marques-gonçalves/" target="_blank" rel="Paulo Marques Gonçalves Linkedin"><i className="fa-brands fa-linkedin-in"></i></a></abbr>
+                    <abbr title="Paulo Marques Gonçalves - GitHub"><a href="https://github.com/PauloMarquesG" target="_blank" rel="Paulo Marques Gonçalves GitHub"><i className="fa-brands fa-github"></i></a></abbr>
+                    <abbr title="Paulo Marques Gonçalves - Behance"><a href="https://www.behance.net/paulomarques65" target="_blank" rel="Paulo Marques Gonçalves Behance"><i className="fa-brands fa-behance"></i></a></abbr>
+                    <abbr title="Paulo Marques Gonçalves - Instagram"><a href="https://www.instagram.com/paulinhn_/" target="_blank" rel="Paulo Marques Gonçalves Instagram"><i className="fa-brands fa-instagram"></i></a></abbr>
                 </div>
             </div>
         </section>

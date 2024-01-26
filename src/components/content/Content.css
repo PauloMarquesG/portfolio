@@ -1,16 +1,13 @@
 main{
     display: flex;
     margin-top: 8vh;
-    padding-inline: 20vw;
-    padding-block: 2rem;
+    padding-top: 2rem;
     background-color: var(--bg-color-primary);
     flex-direction: column;
-    gap: 4rem;
 }
 
 @media (max-width: 768px) {
     main{
         margin-top: 0vh;
-        padding-inline: 10vw;
     }
 }

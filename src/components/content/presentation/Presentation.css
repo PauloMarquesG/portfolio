@@ -1,20 +1,28 @@
-section .intro {
+section.presentation {
+    padding-inline: 20vw;
+    padding-block: 2rem;
+}
+
+.intro {
     position: relative;
     display: flex;
     align-items: center;
-    gap: 2rem;
-    max-width: 55vw;
+    justify-content: space-between;
+    gap: 4rem;
 }
 
 .text-intro {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     gap: 2rem;
+    width: 50vw;
 }
 
 .photo-name {
     display: flex;
     align-items: center;
     gap: 1rem;
+    width: 50vw;
 }
 
 .name-rotate {
@@ -64,13 +72,14 @@ section .intro {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 2rem;
 }
 
 .language,
 .social {
     display: flex;
     margin-block: 2rem;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .social abbr a {
@@ -88,9 +97,16 @@ section .intro {
 }
 
 @media (max-width: 768px) {
+    section.presentation {
+        padding-inline: 10vw;
+    }
+
     .intro {
         flex-direction: column;
-        max-width: 80vw !important;
+    }
+
+    .photo-name, .text-intro{
+        width: 75vw;
     }
 
     .photo-name {
