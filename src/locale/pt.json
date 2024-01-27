@@ -10,6 +10,7 @@
         },
         "presentation": {
             "email": "Contato",
+            "curriculum": "Download CV",
             "greetings": {
                 "good-morning": "Bom dia!",
                 "good-afternoon": "Boa tarde!",
@@ -17,79 +18,141 @@
                 "good-dawn": "Boa madrugada!"
             },
             "welcome": "Bem-vindo(a)!",
-            "text-1": {
-                "phrase": "Olá, eu sou desenvolvedor ",
-                "key-word": "Full Stack!"
-            },
-            "text-2": {
-                "phrase-1": "Tenho ",
-                "phrase-2": " anos de experiência com programação. Minha especialidade está no ",
-                "phrase-3": ", mas não posso negar minha paixão por criar interfaces cativantes no ",
-                "key-word-1": "Back-End",
-                "key-word-2": "Front-End."
-            }
+            "title": "Olá, eu sou desenvolvedor <b class='emphasis'>Full Stack</b> !",
+            "phrase": "Tenho <b class='emphasis'>{{years}}</b> anos de experiência com programação. Minha especialidade está no <b class='emphasis'>Back-End</b>, mas não posso negar minha paixão por criar interfaces cativantes no <b class='emphasis'>Front-End</b>."
         },
         "about": {
-            "title": "# Sobre mim,",
-            "curriculum": "Download CV",
+            "title": "Sobre mim",
             "about-info": {
-                "name": "Meu nome é Paulo Marques Gonçalves, tenho ",
+                "name": "Meu nome é Paulo Marques Gonçalves, tenho {{years}} anos.",
                 "phrase": "Atuo como analista de sistemas no Banco Original, onde sou responsável pelo desenvolvimento do Back-End em Java, utilizando microsserviços. Além disso, realizo a manutenção do Front-End, utilizando as tecnologias HTML, CSS e JavaScript. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na Faculdade de Tecnologia de São Paulo (FATEC-SP).",
                 "location": "Brasil - BR | São Paulo - SP | Zona Leste - ZL"
             }
         },
         "skills": {
-            "title": "<Habilidades />",
-            "front-end": {
-                "react": "React é uma biblioteca JavaScript para construção de interfaces de usuário, conhecida por sua abordagem declarativa e eficiente na criação de componentes interativos em aplicações web.",
-                "html5": "HTML (HyperText Markup Language) é a linguagem de marcação padrão para criação e estruturação de conteúdo na web. Ele define a estrutura de uma página web usando elementos como cabeçalhos, parágrafos e links.",
-                "css3": "CSS (Cascading Style Sheets) é uma linguagem de folha de estilo usada para controlar a apresentação e o layout de documentos HTML. Ela permite aos desenvolvedores estilizar elementos, criando designs visualmente atraentes e responsivos.",
-                "javascript": "JavaScript é uma linguagem de script versátil comumente utilizada no desenvolvimento web do lado do cliente. Ela possibilita conteúdo dinâmico, interatividade e a manipulação do Modelo de Objeto de Documento (DOM) nos navegadores web.",
-                "typescript": "TypeScript é uma superset do JavaScript que adiciona tipagem estática à linguagem. Ele aprimora a manutenção do código e a produtividade do desenvolvedor, detectando erros durante o desenvolvimento e fornecendo melhor suporte de ferramentas.",
-                "bootstrap": "Bootstrap é um framework front-end popular que simplifica o processo de design de sites responsivos e mobile-first. Ele inclui componentes pré-designados e um sistema de grade responsivo, facilitando o desenvolvimento rápido.",
-                "angular": "Angular é um abrangente framework front-end desenvolvido pela Google para a construção de aplicações web dinâmicas e escaláveis. Ele fornece uma estrutura modular, ligação de dados bidirecional e um conjunto de ferramentas poderosas para os desenvolvedores."
-            },
-            "back-end": {
-                "java": "Java é uma linguagem de programação versátil e robusta, conhecida por sua portabilidade e ampla aplicação em desenvolvimento de software, desde aplicativos para dispositivos móveis até sistemas corporativos complexos.",
-                "spring": "O Spring é um poderoso framework em Java, utilizado para criar aplicações empresariais escaláveis e de fácil manutenção. Ele oferece recursos abrangentes para o desenvolvimento ágil, incluindo injeção de dependência e controle de transações.",
-                "mysql": "MySQL destaca-se como um sistema de gerenciamento de banco de dados relacional confiável e eficiente. Amplamente utilizado, é conhecido por sua velocidade, confiabilidade e flexibilidade, sendo uma escolha popular para aplicações web e empresariais.",
-                "php": "PHP é uma linguagem de script amplamente utilizada para o desenvolvimento de páginas web dinâmicas. Sua simplicidade, integração com HTML e suporte a uma variedade de bancos de dados fazem dele uma escolha popular para criar sites interativos.",
-                "cpp": "C++ é uma linguagem de programação poderosa e eficiente, amplamente adotada para o desenvolvimento de sistemas e aplicações de alto desempenho. Com recursos como programação orientada a objetos e manipulação direta de memória, é uma escolha robusta para projetos exigentes."
-            },
-            "tools": {
-                "intellij": "IntelliJ é um ambiente de desenvolvimento integrado (IDE) poderoso para Java, reconhecido por sua assistência de código inteligente, navegação avançada e ferramentas robustas.",
-                "vscode": "VSCode, ou Visual Studio Code, é um editor de código leve, mas rico em recursos, desenvolvido pela Microsoft. Ele suporta várias linguagens e extensões, proporcionando um ambiente versátil para os desenvolvedores.",
-                "git": "Git é um sistema de controle de versão distribuído amplamente utilizado para rastrear alterações no código-fonte durante o desenvolvimento de software. Ele possibilita a colaboração e facilita a gestão eficiente de repositórios de código.",
-                "github": "GitHub é uma plataforma baseada na web que utiliza o Git para controle de versão. Ele funciona como um serviço de hospedagem para projetos de desenvolvimento de software, promovendo a colaboração e oferecendo ferramentas para gerenciamento de projetos.",
-                "gitlab": "GitLab é um gerenciador de repositórios Git baseado na web que oferece gerenciamento de código-fonte, CI/CD (Integração Contínua/Implantação Contínua) e recursos de colaboração. Ele oferece uma solução completa para o ciclo de vida do desenvolvimento.",
-                "confluence": "Confluence é uma ferramenta de colaboração e documentação que permite que equipes criem, compartilhem e colaborem em conteúdos. É especialmente útil para criar e organizar documentação de projetos e bases de conhecimento."
-            }
+            "title": "Habilidades",
+            "accordion": [
+                {
+                    "id": "0",
+                    "value": "Front-End",
+                    "0": [
+                        {
+                            "id": "react",
+                            "react": "React é uma biblioteca JavaScript para construção de interfaces de usuário, conhecida por sua abordagem declarativa e eficiente na criação de componentes interativos em aplicações web."
+                        },
+                        {
+                            "id": "html5",
+                            "html5": "HTML (HyperText Markup Language) é a linguagem de marcação padrão para criação e estruturação de conteúdo na web. Ele define a estrutura de uma página web usando elementos como cabeçalhos, parágrafos e links."
+                        },
+                        {
+                            "id": "css3",
+                            "css3": "CSS (Cascading Style Sheets) é uma linguagem de folha de estilo usada para controlar a apresentação e o layout de documentos HTML. Ela permite aos desenvolvedores estilizar elementos, criando designs visualmente atraentes e responsivos."
+                        },
+                        {
+                            "id": "javascript",
+                            "javascript": "JavaScript é uma linguagem de script versátil comumente utilizada no desenvolvimento web do lado do cliente. Ela possibilita conteúdo dinâmico, interatividade e a manipulação do Modelo de Objeto de Documento (DOM) nos navegadores web."
+                        },
+                        {
+                            "id": "typescript",
+                            "typescript": "TypeScript é uma superset do JavaScript que adiciona tipagem estática à linguagem. Ele aprimora a manutenção do código e a produtividade do desenvolvedor, detectando erros durante o desenvolvimento e fornecendo melhor suporte de ferramentas."
+                        },
+                        {
+                            "id": "bootstrap",
+                            "bootstrap": "Bootstrap é um framework front-end popular que simplifica o processo de design de sites responsivos e mobile-first. Ele inclui componentes pré-designados e um sistema de grade responsivo, facilitando o desenvolvimento rápido."
+                        },
+                        {
+                            "id": "angularjs",
+                            "angularjs": "Angular é um abrangente framework front-end desenvolvido pela Google para a construção de aplicações web dinâmicas e escaláveis. Ele fornece uma estrutura modular, ligação de dados bidirecional e um conjunto de ferramentas poderosas para os desenvolvedores."
+                        }
+                    ]
+                },
+                {
+                    "id": "1",
+                    "value": "Back-End",
+                    "1": [
+                        {
+                            "id": "java",
+                            "java": "Java é uma linguagem de programação versátil e robusta, conhecida por sua portabilidade e ampla aplicação em desenvolvimento de software, desde aplicativos para dispositivos móveis até sistemas corporativos complexos."
+                        },
+                        {
+                            "id": "spring",
+                            "spring": "O Spring é um poderoso framework em Java, utilizado para criar aplicações empresariais escaláveis e de fácil manutenção. Ele oferece recursos abrangentes para o desenvolvimento ágil, incluindo injeção de dependência e controle de transações."
+                        },
+                        {
+                            "id": "mysql",
+                            "mysql": "MySQL destaca-se como um sistema de gerenciamento de banco de dados relacional confiável e eficiente. Amplamente utilizado, é conhecido por sua velocidade, confiabilidade e flexibilidade, sendo uma escolha popular para aplicações web e empresariais."
+                        },
+                        {
+                            "id": "php",
+                            "php": "PHP é uma linguagem de script amplamente utilizada para o desenvolvimento de páginas web dinâmicas. Sua simplicidade, integração com HTML e suporte a uma variedade de bancos de dados fazem dele uma escolha popular para criar sites interativos."
+                        },
+                        {
+                            "id": "cplusplus",
+                            "cplusplus": "C++ é uma linguagem de programação poderosa e eficiente, amplamente adotada para o desenvolvimento de sistemas e aplicações de alto desempenho. Com recursos como programação orientada a objetos e manipulação direta de memória, é uma escolha robusta para projetos exigentes."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "value": "Ferramentas",
+                    "2": [
+                        {
+                            "id": "intellij",
+                            "intellij": "IntelliJ é um ambiente de desenvolvimento integrado (IDE) poderoso para Java, reconhecido por sua assistência de código inteligente, navegação avançada e ferramentas robustas."
+                        },
+                        {
+                            "id": "vscode",
+                            "vscode": "VSCode, ou Visual Studio Code, é um editor de código leve, mas rico em recursos, desenvolvido pela Microsoft. Ele suporta várias linguagens e extensões, proporcionando um ambiente versátil para os desenvolvedores."
+                        },
+                        {
+                            "id": "git",
+                            "git": "Git é um sistema de controle de versão distribuído amplamente utilizado para rastrear alterações no código-fonte durante o desenvolvimento de software. Ele possibilita a colaboração e facilita a gestão eficiente de repositórios de código."
+                        },
+                        {
+                            "id": "github",
+                            "github": "GitHub é uma plataforma baseada na web que utiliza o Git para controle de versão. Ele funciona como um serviço de hospedagem para projetos de desenvolvimento de software, promovendo a colaboração e oferecendo ferramentas para gerenciamento de projetos."
+                        },
+                        {
+                            "id": "gitlab",
+                            "gitlab": "GitLab é um gerenciador de repositórios Git baseado na web que oferece gerenciamento de código-fonte, CI/CD (Integração Contínua/Implantação Contínua) e recursos de colaboração. Ele oferece uma solução completa para o ciclo de vida do desenvolvimento."
+                        },
+                        {
+                            "id": "confluence",
+                            "confluence": "Confluence é uma ferramenta de colaboração e documentação que permite que equipes criem, compartilhem e colaborem em conteúdos. É especialmente útil para criar e organizar documentação de projetos e bases de conhecimento."
+                        }
+                    ]
+                }
+            ]
         },
         "portfolio": {
-            "title": ".Projetos",
+            "title": "Projetos",
             "view-more": "Ver mais",
-            "projects": {
-                "portfolio": {
+            "projects": [
+                {
                     "name": "Portfólio",
+                    "archive": "portfolio",
                     "icons": "",
                     "date": "28/01/2024"
                 },
-                "backbox": {
+                {
                     "name": "BackBox",
+                    "archive": "backbox",
                     "icons": "",
                     "date": "26/01/2024"
                 },
-                "github": {
+                {
                     "name": "GitHub",
+                    "archive": "github",
                     "icons": "",
                     "date": "26/01/2024"
                 },
-                "jogo-onca": {
+                {
                     "name": "Jogo da Onça",
+                    "archive": "jogoonca",
                     "icons": "",
                     "date": "21/11/2023"
                 }
-            }
+            ]
         },
         "footer": {
             "copyRight": "Todos os direitos reservados."

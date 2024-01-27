@@ -1,16 +1,14 @@
 section.projects {
-    padding-inline: 10vw;
-    padding-block: 2rem;
+    padding-top: 10vh;
 }
 
 .cards {
     position:inherit;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 2rem;
-    padding-block: 2rem;
+    padding-block: 4rem;
 }
 
 .projects h1 {
@@ -19,7 +17,7 @@ section.projects {
 
 .card {
     position:relative;
-    max-width: 40%;
+    max-width: 30%;
     transition: .4s;
 }
 
@@ -36,8 +34,15 @@ section.projects {
 
 .card:hover {
     transform: scale(1.3);
-    box-shadow: 0 0 15px var(--color-primary);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0 0 15px var(--color-second);
     z-index: 1;
+}
+
+.card:hover .cover img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .details {
@@ -84,7 +89,7 @@ section.projects {
     width: 100%;
     height: .3rem;
     bottom: .1rem;
-    background-color: var(--color-primary);
+    background: linear-gradient(to right, #17a2b8, #9ecad1);
 }
 
 .description {
@@ -95,7 +100,7 @@ section.projects {
     display: flex;
     position: absolute;
     width: calc(100% - 1rem);
-    box-shadow: 0 0 15px var(--color-primary);
+    box-shadow: 0 0 15px var(--color-second);
     background-color: var(--bg-color-second);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;

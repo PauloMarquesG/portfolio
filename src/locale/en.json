@@ -10,6 +10,7 @@
         },
         "presentation": {
             "email": "Contact",
+            "curriculum": "Download CV",
             "greetings": {
                 "good-morning": "Good morning!",
                 "good-afternoon": "Good afternoon!",
@@ -17,79 +18,141 @@
                 "good-dawn": "Good dawn!"
             },
             "welcome": "Welcome!",
-            "text-1": {
-                "phrase":   "Hi, I'm a Developer ",
-                "key-word":  "Full Stack!"
-            },
-            "text-2": {
-                "phrase-1": "I possess ",
-                "phrase-2": " years of programming experience. While my primary focus is on ",
-                "phrase-3": "development, I cannot deny my passion for crafting captivating interfaces on the ",
-                "key-word-1": "Back-End ",
-                "key-word-2": "Front-End."
-            }
+            "title": "Hi, I'm a <b class='emphasis'>Full Stack</b> Developer !",
+            "phrase": "I possess <b class='emphasis'>{{years}}</b> years of programming experience. While my primary focus is on <b class='emphasis'>Back-End</b> development, I cannot deny my passion for crafting captivating interfaces on the <b class='emphasis'>Front-End</b>."
         },
         "about": {
-            "title": "# About me,",
-            "curriculum": "Download CV",
+            "title": "About me",
             "about-info": {
-                "name": "My name is Paulo Marques Gonçalves, I'm ",
+                "name": "My name is Paulo Marques Gonçalves, I'm {{years}} years old.",
                 "phrase": "I work as a systems analyst at Banco Original, where I am involved in Back-End development using Java and microservices. I also perform maintenance on the Front-End, utilizing HTML, CSS, and JavaScript. Currently, I am pursuing a degree in Systems Analysis and Development at the São Paulo Technology College (FATEC-SP).",
-                "location":"Brazil - BR | São Paulo - SP | East Zone - EZ"
+                "location": "Brazil - BR | São Paulo - SP | East Zone - EZ"
             }
         },
         "skills": {
-            "title": "<Skills />",
-            "front-end": {
-                "react": "React is a JavaScript library for building user interfaces, known for its declarative and efficient approach to creating interactive UI components in web applications.",
-                "html5": "HTML (HyperText Markup Language) is the standard markup language for creating and structuring web content. It defines the structure of a webpage using elements such as headings, paragraphs, and links.",
-                "css3": "CSS (Cascading Style Sheets) is a stylesheet language used to control the presentation and layout of HTML documents. It allows developers to style elements, creating visually appealing and responsive web designs.",
-                "javascript": "JavaScript is a versatile scripting language commonly used for client-side web development. It enables dynamic content, interactivity, and the manipulation of the Document Object Model (DOM) in web browsers.",
-                "typescript": "TypeScript is a superset of JavaScript that adds static typing to the language. It enhances code maintainability and developer productivity by catching errors during development and providing better tooling support.",
-                "bootstrap": "Bootstrap is a popular front-end framework that simplifies the process of designing responsive and mobile-first websites. It includes pre-designed components and a responsive grid system, facilitating rapid development.",
-                "angular": "Angular is a comprehensive front-end framework developed by Google for building dynamic and scalable web applications. It provides a modular structure, two-way data binding, and a set of powerful tools for developers."
-            },
-            "back-end": {
-                "java": "Java is a versatile and robust programming language, known for its portability and wide application in software development, from mobile applications to complex enterprise systems.",
-                "spring": "Spring is a powerful Java framework used for building scalable and easily maintainable enterprise applications. It provides comprehensive features for agile development, including dependency injection and transaction management.",
-                "mysql": "MySQL stands out as a reliable and efficient relational database management system. Widely used, it is known for its speed, reliability, and flexibility, making it a popular choice for web and enterprise applications.",
-                "php": "PHP is a widely-used scripting language for developing dynamic web pages. Its simplicity, integration with HTML, and support for various databases make it a popular choice for creating interactive websites.",
-                "cpp": "C++ is a powerful and efficient programming language, widely adopted for developing high-performance systems and applications. With features such as object-oriented programming and direct memory manipulation, it is a robust choice for demanding projects."
-            },
-            "tools": {
-                "intellij": "IntelliJ is a powerful integrated development environment (IDE) for Java, known for its intelligent code assistance, advanced navigation, and robust tools.",
-                "vscode": "VSCode, or Visual Studio Code, is a lightweight yet feature-rich code editor developed by Microsoft. It supports various languages and extensions, providing a versatile environment for developers.",
-                "git": "Git is a distributed version control system widely used for tracking changes in source code during software development. It enables collaboration and facilitates managing code repositories efficiently.",
-                "github": "GitHub is a web-based platform that utilizes Git for version control. It serves as a hosting service for software development projects, fostering collaboration and providing tools for project management.",
-                "gitlab": "GitLab is a web-based Git repository manager that provides source code management, CI/CD (Continuous Integration/Continuous Deployment), and collaboration features. It offers an all-in-one solution for the development lifecycle.",
-                "confluence": "Confluence is a collaboration and documentation tool that enables teams to create, share, and collaborate on content. It is particularly useful for creating and organizing project documentation and knowledge bases."
-            }
+            "title": "Skills",
+            "accordion": [
+                {
+                    "id": "0",
+                    "value": "Front-End",
+                    "0": [
+                        {
+                            "id": "react",
+                            "react": "React is a JavaScript library for building user interfaces, known for its declarative and efficient approach to creating interactive UI components in web applications."
+                        },
+                        {
+                            "id": "html5",
+                            "html5": "HTML (HyperText Markup Language) is the standard markup language for creating and structuring web content. It defines the structure of a webpage using elements such as headings, paragraphs, and links."
+                        },
+                        {
+                            "id": "css3",
+                            "css3": "CSS (Cascading Style Sheets) is a stylesheet language used to control the presentation and layout of HTML documents. It allows developers to style elements, creating visually appealing and responsive web designs."
+                        },
+                        {
+                            "id": "javascript",
+                            "javascript": "JavaScript is a versatile scripting language commonly used for client-side web development. It enables dynamic content, interactivity, and the manipulation of the Document Object Model (DOM) in web browsers."
+                        },
+                        {
+                            "id": "typescript",
+                            "typescript": "TypeScript is a superset of JavaScript that adds static typing to the language. It enhances code maintainability and developer productivity by catching errors during development and providing better tooling support."
+                        },
+                        {
+                            "id": "bootstrap",
+                            "bootstrap": "Bootstrap is a popular front-end framework that simplifies the process of designing responsive and mobile-first websites. It includes pre-designed components and a responsive grid system, facilitating rapid development."
+                        },
+                        {
+                            "id": "angularjs",
+                            "angularjs": "Angular is a comprehensive front-end framework developed by Google for building dynamic and scalable web applications. It provides a modular structure, two-way data binding, and a set of powerful tools for developers."
+                        }
+                    ]
+                },
+                {
+                    "id": "1",
+                    "value": "Back-End",
+                    "1": [
+                        {
+                            "id": "java",
+                            "java": "Java is a versatile and robust programming language, known for its portability and wide application in software development, from mobile applications to complex enterprise systems."
+                        },
+                        {
+                            "id": "spring",
+                            "spring": "Spring is a powerful Java framework used for building scalable and easily maintainable enterprise applications. It provides comprehensive features for agile development, including dependency injection and transaction management."
+                        },
+                        {
+                            "id": "mysql",
+                            "mysql": "MySQL stands out as a reliable and efficient relational database management system. Widely used, it is known for its speed, reliability, and flexibility, making it a popular choice for web and enterprise applications."
+                        },
+                        {
+                            "id": "php",
+                            "php": "PHP is a widely-used scripting language for developing dynamic web pages. Its simplicity, integration with HTML, and support for various databases make it a popular choice for creating interactive websites."
+                        },
+                        {
+                            "id": "cplusplus",
+                            "cplusplus": "C++ is a powerful and efficient programming language, widely adopted for developing high-performance systems and applications. With features such as object-oriented programming and direct memory manipulation, it is a robust choice for demanding projects."
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "value": "Tools",
+                    "2": [
+                        {
+                            "id": "intellij",
+                            "intellij": "IntelliJ is a powerful integrated development environment (IDE) for Java, known for its intelligent code assistance, advanced navigation, and robust tools."
+                        },
+                        {
+                            "id": "vscode",
+                            "vscode": "VSCode, or Visual Studio Code, is a lightweight yet feature-rich code editor developed by Microsoft. It supports various languages and extensions, providing a versatile environment for developers."
+                        },
+                        {
+                            "id": "git",
+                            "git": "Git is a distributed version control system widely used for tracking changes in source code during software development. It enables collaboration and facilitates managing code repositories efficiently."
+                        },
+                        {
+                            "id": "github",
+                            "github": "GitHub is a web-based platform that utilizes Git for version control. It serves as a hosting service for software development projects, fostering collaboration and providing tools for project management."
+                        },
+                        {
+                            "id": "gitlab",
+                            "gitlab": "GitLab is a web-based Git repository manager that provides source code management, CI/CD (Continuous Integration/Continuous Deployment), and collaboration features. It offers an all-in-one solution for the development lifecycle."
+                        },
+                        {
+                            "id": "confluence",
+                            "confluence": "Confluence is a collaboration and documentation tool that enables teams to create, share, and collaborate on content. It is particularly useful for creating and organizing project documentation and knowledge bases."
+                        }
+                    ]
+                }
+            ]
         },
         "portfolio": {
-            "title": ".Projetos",
+            "title": "Projects",
             "view-more": "View more",
-            "projects": {
-                "portfolio": {
-                    "name": "Portfólio",
+            "projects": [
+                {
+                    "name": "Portfolio",
+                    "archive": "portfolio",
                     "icons": "",
                     "date": "01/28/2024"
                 },
-                "backbox": {
+                {
                     "name": "BackBox",
+                    "archive": "backbox",
                     "icons": "",
                     "date": "01/26/2024"
                 },
-                "github": {
+                {
                     "name": "GitHub",
+                    "archive": "github",
                     "icons": "",
                     "date": "01/26/2024"
                 },
-                "jogo-onca": {
+                {
                     "name": "Jogo da Onça",
+                    "archive": "jogoonca",
                     "icons": "",
                     "date": "11/21/2023"
                 }
-            }
+            ]
         },
         "footer": {
             "copyRight": "All rights reserved."

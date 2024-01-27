@@ -10,20 +10,17 @@ function About() {
     const [years, setYears] = useState();
 
     useEffect(() => {
-        setYears(Math.floor((new Date() - new Date('2003-06-10'))/31557600000));
+        setYears(Math.floor((new Date() - new Date('2003-06-10')) / 31557600000));
     }, [language])
 
     return (
         <section id='about' className='about'>
-            <h1>{t('about.title')}</h1>
-            <div className="about-container">
+            <div className='about-border'>
+                <h1 className='title'>{t('about.title')}</h1>
                 <div className='about-info'>
-                    <h3>{t("about.about-info.name")}{years} {language === 'en' ? 'years old.' : 'anos.'}</h3>
+                    <h3>{t("about.about-info.name", { years: years })}</h3>
                     <p>{t("about.about-info.phrase")}</p>
-                    <span><i className="fa-solid fa-location-dot"></i> {t("about.about-info.location")}</span>
-                </div>
-                <div className="btn-about">
-                    <a href='/public/doc/CV/PauloMarquesGoncalves_CV.pdf' target="_blank" className='btn'><p>{t("about.curriculum")} <i className="fa-solid fa-cloud-arrow-down"></i></p></a>
+                    <p><i className="fa-solid fa-location-dot"></i> {t("about.about-info.location")}</p>
                 </div>
             </div>
         </section>

@@ -20,7 +20,7 @@ function Header() {
                 <button className={`toggleTheme ${theme === 'dark' ? 'dark' : ''}`} onClick={toggleTheme}>
                     {theme === 'dark' ? <i className="fa-solid fa-moon"></i> : <i className="fa-solid fa-sun"></i>}
                 </button>
-                <h1>{t("header.title")}</h1>
+                <h1 className='title-nav'><a href="#">{t("header.title")}</a></h1>
                 <button onClick={handleHamburger} className='hamburger'></button>
                 <ul className='nav-list'>
                     <li><a className='nav-link' href="#"><i className="fa-solid fa-house"></i></a></li>

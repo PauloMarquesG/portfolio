@@ -7,6 +7,10 @@ header {
     background-color: var(--bg-color-primary);
 }
 
+.title-nav a {
+    text-decoration: none;
+}
+
 .nav {
     display: flex;
     height: 8vh;

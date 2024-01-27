@@ -32,6 +32,8 @@ img {
     color: var(--color-primary);
 }
 
+::-webkit-scrollbar
+
 ::-webkit-scrollbar {
     width: .6rem;
     background-color: var(--bg-color-second);

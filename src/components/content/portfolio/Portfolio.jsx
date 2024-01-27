@@ -8,60 +8,23 @@ function Portfolio() {
 
     return (
         <section id='projects' className='projects'>
-            <h1>{t('portfolio.title')}</h1>
+            <h1 className='title'>{t('portfolio.title')}</h1>
             <div className="cards">
-                <div className="card">
-                    <div className='cover'>
-                        <img src="public/img/backbox.png" alt="" />
-                        <div className='details'>
-                            <h3>{t("portfolio.projects.backbox.name")}</h3>
-                            <p>{t("portfolio.projects.backbox.icons")}</p>
+                {t("portfolio.projects",  { returnObjects: true }).map(item => (
+                    <div className="card" key={item.name}>
+                        <div className='cover'>
+                            <img src={`public/img/${item.archive}.png`} alt="" />
+                            <div className='details'>
+                                <h3>{item.name}</h3>
+                                <p>{item.icons}</p>
+                            </div>
+                        </div>
+                        <div className='description'>
+                            <p>{item.date}</p>
+                            <button className='btn-view-more'>{t("portfolio.view-more")}</button>
                         </div>
                     </div>
-                    <div className='description'>
-                        <p>{t("portfolio.projects.backbox.date")}</p>
-                        <button className='btn-view-more'>{t("portfolio.view-more")}</button>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className='cover'>
-                        <img src="public/img/portfolio.png" alt="" />
-                        <div className='details'>
-                            <h3>{t("portfolio.projects.portfolio.name")}</h3>
-                            <p>{t("portfolio.projects.portfolio.icons")}</p>
-                        </div>
-                    </div>
-                    <div className='description'>
-                        <p className='description-p'>{t("portfolio.projects.portfolio.date")}</p>
-                        <button className='btn-view-more'>{t("portfolio.view-more")}</button>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className='cover'>
-                        <img src="public/img/github.png" alt="" />
-                        <div className='details'>
-                            <h3>{t("portfolio.projects.github.name")}</h3>
-                            <p>{t("portfolio.projects.github.icons")}</p>
-                        </div>
-                    </div>
-                    <div className='description'>
-                        <p>{t("portfolio.projects.github.date")}</p>
-                        <button className='btn-view-more'>{t("portfolio.view-more")}</button>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className='cover'>
-                        <img src="public/img/jogoonca.png" alt="" />
-                        <div className='details'>
-                            <h3>{t("portfolio.projects.jogo-onca.name")}</h3>
-                            <p>{t("portfolio.projects.jogo-onca.icons")}</p>
-                        </div>
-                    </div>
-                    <div className='description'>
-                        <p>{t("portfolio.projects.jogo-onca.date")}</p>
-                        <button className='btn-view-more'>{t("portfolio.view-more")}</button>
-                    </div>
-                </div>
+                ))}
             </div>
         </section>
     )

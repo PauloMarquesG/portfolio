@@ -1,6 +1,6 @@
 section.presentation {
-    padding-inline: 20vw;
-    padding-block: 2rem;
+    padding-top: 10vh;
+    padding-inline: 10vw;
 }
 
 .intro {
@@ -98,7 +98,7 @@ section.presentation {
 
 @media (max-width: 768px) {
     section.presentation {
-        padding-inline: 10vw;
+        padding-inline: 0;
     }
 
     .intro {

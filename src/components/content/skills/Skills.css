@@ -1,15 +1,13 @@
 section.skills {
-  display: flex;
-  padding-block: 2rem;
-  padding-inline: 20vw;
-  gap: 2rem;
-  flex-direction: column;
+  padding-top: 10vh;
 }
 
 .skills-content {
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
+  padding-inline: 5rem;
+  padding-block: 4rem;
 }
 
 .accordion-item {
@@ -58,8 +56,8 @@ section.skills {
 }
 
 @media (max-width: 768px) {
-  section.skills{
-    padding-inline: 10vw;
+  .skills-content {
+    padding-inline: 0;
   }
 
   .accordion-content {
@@ -86,7 +84,7 @@ section.skills {
 
 .dialog {
   background-color: var(--color-primary);
-  padding: 1rem;
+  padding: 1.75rem;
   display: flex;
   flex-direction: column;
   border-radius: .5rem;
