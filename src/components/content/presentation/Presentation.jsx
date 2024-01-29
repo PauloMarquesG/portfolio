@@ -35,7 +35,7 @@ function Presentation() {
                     <h2 dangerouslySetInnerHTML={{ __html: t('presentation.title') }} />
                     <p dangerouslySetInnerHTML={{ __html: t('presentation.phrase', { years: countYears }) }} />
                     <div className='btn-presentation'>
-                        <a href='/public/doc/CV/PauloMarquesGoncalves_CV.pdf' target="_blank" className='btn'><p>{t("presentation.curriculum")} <i className="fa-solid fa-cloud-arrow-down"></i></p></a>
+                        <a href='/doc/CV/PauloMarquesGoncalves_CV.pdf' target="_blank" className='btn'><p>{t("presentation.curriculum")} <i className="fa-solid fa-cloud-arrow-down"></i></p></a>
                         <a href='mailto:paulomarquesg06@gmail.com' target='_blank' className='btn'><p>{t("presentation.email")} <i className="fa-regular fa-envelope"></i></p></a>
                     </div>
                 </div>
