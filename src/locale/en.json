@@ -38,31 +38,31 @@
                     "0": [
                         {
                             "id": "react",
-                            "react": "React is a JavaScript library for building user interfaces, known for its declarative and efficient approach to creating interactive UI components in web applications."
+                            "name": "React"
                         },
                         {
                             "id": "html5",
-                            "html5": "HTML (HyperText Markup Language) is the standard markup language for creating and structuring web content. It defines the structure of a webpage using elements such as headings, paragraphs, and links."
+                            "name": "HTML"
                         },
                         {
                             "id": "css3",
-                            "css3": "CSS (Cascading Style Sheets) is a stylesheet language used to control the presentation and layout of HTML documents. It allows developers to style elements, creating visually appealing and responsive web designs."
+                            "name": "CSS"
                         },
                         {
                             "id": "javascript",
-                            "javascript": "JavaScript is a versatile scripting language commonly used for client-side web development. It enables dynamic content, interactivity, and the manipulation of the Document Object Model (DOM) in web browsers."
+                            "name": "JavaScript"
                         },
                         {
                             "id": "typescript",
-                            "typescript": "TypeScript is a superset of JavaScript that adds static typing to the language. It enhances code maintainability and developer productivity by catching errors during development and providing better tooling support."
+                            "name": "TypeScript"
                         },
                         {
                             "id": "bootstrap",
-                            "bootstrap": "Bootstrap is a popular front-end framework that simplifies the process of designing responsive and mobile-first websites. It includes pre-designed components and a responsive grid system, facilitating rapid development."
+                            "name": "Bootstrap"
                         },
                         {
                             "id": "angularjs",
-                            "angularjs": "Angular is a comprehensive front-end framework developed by Google for building dynamic and scalable web applications. It provides a modular structure, two-way data binding, and a set of powerful tools for developers."
+                            "name": "Angular"
                         }
                     ]
                 },
@@ -72,23 +72,23 @@
                     "1": [
                         {
                             "id": "java",
-                            "java": "Java is a versatile and robust programming language, known for its portability and wide application in software development, from mobile applications to complex enterprise systems."
+                            "name": "Java"
                         },
                         {
                             "id": "spring",
-                            "spring": "Spring is a powerful Java framework used for building scalable and easily maintainable enterprise applications. It provides comprehensive features for agile development, including dependency injection and transaction management."
+                            "name": "Spring-Boot"
                         },
                         {
                             "id": "mysql",
-                            "mysql": "MySQL stands out as a reliable and efficient relational database management system. Widely used, it is known for its speed, reliability, and flexibility, making it a popular choice for web and enterprise applications."
+                            "name": "MySQL"
                         },
                         {
                             "id": "php",
-                            "php": "PHP is a widely-used scripting language for developing dynamic web pages. Its simplicity, integration with HTML, and support for various databases make it a popular choice for creating interactive websites."
+                            "name": "PHP"
                         },
                         {
                             "id": "cplusplus",
-                            "cplusplus": "C++ is a powerful and efficient programming language, widely adopted for developing high-performance systems and applications. With features such as object-oriented programming and direct memory manipulation, it is a robust choice for demanding projects."
+                            "name": "C++"
                         }
                     ]
                 },
@@ -98,27 +98,27 @@
                     "2": [
                         {
                             "id": "intellij",
-                            "intellij": "IntelliJ is a powerful integrated development environment (IDE) for Java, known for its intelligent code assistance, advanced navigation, and robust tools."
+                            "name": "IntelliJ"
                         },
                         {
                             "id": "vscode",
-                            "vscode": "VSCode, or Visual Studio Code, is a lightweight yet feature-rich code editor developed by Microsoft. It supports various languages and extensions, providing a versatile environment for developers."
+                            "name": "Visual Studio Code"
                         },
                         {
                             "id": "git",
-                            "git": "Git is a distributed version control system widely used for tracking changes in source code during software development. It enables collaboration and facilitates managing code repositories efficiently."
+                            "name": "Git"
                         },
                         {
                             "id": "github",
-                            "github": "GitHub is a web-based platform that utilizes Git for version control. It serves as a hosting service for software development projects, fostering collaboration and providing tools for project management."
+                            "name": "GitHub"
                         },
                         {
                             "id": "gitlab",
-                            "gitlab": "GitLab is a web-based Git repository manager that provides source code management, CI/CD (Continuous Integration/Continuous Deployment), and collaboration features. It offers an all-in-one solution for the development lifecycle."
+                            "name": "GitLab"
                         },
                         {
                             "id": "confluence",
-                            "confluence": "Confluence is a collaboration and documentation tool that enables teams to create, share, and collaborate on content. It is particularly useful for creating and organizing project documentation and knowledge bases."
+                            "name": "Confluence"
                         }
                     ]
                 }
@@ -129,28 +129,49 @@
             "view-more": "View more",
             "projects": [
                 {
-                    "name": "Portfolio",
-                    "archive": "portfolio",
+                    "name": "GitHub",
+                    "archive": "github",
+                    "description": "If you're checking out my portfolio, why not take a deeper dive into the code behind the projects? My GitHub is the place where I share my work, collaborations, and experiments. Each repository tells its own story, and I'd be happy if you could have a look.",
                     "icons": "",
-                    "date": "01/28/2024"
+                    "date": "",
+                    "link_github": "https://github.com/PauloMarquesG",
+                    "link_online": ""
                 },
                 {
                     "name": "BackBox",
                     "archive": "backbox",
+                    "description": "This website was developed during my high school years with the aim of providing a comprehensive overview of the Linux distribution BackBox. Here, you will find detailed information and resources that highlight the distinctive features of BackBox, a Linux distribution focused on security.",
                     "icons": "",
-                    "date": "01/26/2024"
+                    "date": "January 26, 2024",
+                    "link_github": "https://github.com/PauloMarquesG/Project-WebSite-BackBox",
+                    "link_online": "https://paulomarquesg.github.io/Project-WebSite-BackBox/"
                 },
                 {
-                    "name": "GitHub",
-                    "archive": "github",
+                    "name": "Portfolio",
+                    "archive": "portfolio",
+                    "description": "This is my personal portfolio, a dedicated space showcasing my projects. I strive to execute each project with excellence and passion, emphasizing not only the final results but also the creative process involved. Furthermore, within this space, you will find a detailed description of my skills and the programming languages I proficiently command.",
                     "icons": "",
-                    "date": "01/26/2024"
+                    "date": "January 28, 2024",
+                    "link_github": "https://github.com/PauloMarquesG/portfolio",
+                    "link_online": ""
+                },                
+                {
+                    "name": "API CRUD",
+                    "archive": "exemplo-api-crud",
+                    "description": "This Java CRUD microservice serves as a foundational model for building scalable and efficient services. Developed with simplicity and flexibility in mind, it provides a robust example of constructing microservices for CRUD (Create, Read, Update, Delete) operations.",
+                    "icons": "",
+                    "date": "January 08,2023",
+                    "link_github": "https://github.com/PauloMarquesG/exemplo-api-java",
+                    "link_online": ""
                 },
                 {
                     "name": "Jogo da Onça",
                     "archive": "jogoonca",
+                    "description": "This is the development project for the board game 'Jogo da Onça' (Jaguar Game). The proposal for this activity is to transform this game into a digital version, aiming to make it not only a fun experience but also an opportunity for revenue generation. This work is part of the Software Engineering III course, taught by Professor VICTOR ANTONIO TROITINO, at the São Paulo State Technological College.",
                     "icons": "",
-                    "date": "11/21/2023"
+                    "date": "November 21, 2023",
+                    "link_github": "https://github.com/IES-FATECSP-6sem2-2023",
+                    "link_online": ""
                 }
             ]
         },

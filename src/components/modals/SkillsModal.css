@@ -1,0 +1,16 @@
+.modal {
+    display: none;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.modal p {
+    background-color: black;
+    width: 20vw;
+    height: 20vh;
+}

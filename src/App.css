@@ -9,6 +9,7 @@ html {
 
 body {
     overflow-x: hidden;
+    box-sizing: border-box;
     font-family: var(--font-family);
 }
 
@@ -31,8 +32,6 @@ img {
 .emphasis {
     color: var(--color-primary);
 }
-
-::-webkit-scrollbar
 
 ::-webkit-scrollbar {
     width: .6rem;

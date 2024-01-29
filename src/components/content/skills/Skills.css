@@ -2,97 +2,75 @@ section.skills {
   padding-top: 10vh;
 }
 
-.skills-content {
-  display: flex;
-  flex-direction: column;
+.accordion-container {
+  display: grid;
   gap: 1.4rem;
   padding-inline: 5rem;
   padding-block: 4rem;
 }
 
-.accordion-item {
-  border-radius: 5px;
+.accordion-items {
+  display: grid;
+  border-radius: 15px;
   background-color: var(--bg-color-second);
 }
 
-.accordion-item:hover {
-  opacity: 0.9;
-}
-
 .accordion-header {
-  padding: 1rem;
-  cursor: pointer;
   display: flex;
+  padding: 1.5rem;
   align-items: center;
   justify-content: space-between;
 }
 
+.accordion-header .icon {
+  color: var(--text-color);
+}
+
 .accordion-content {
   overflow: hidden;
-  height: 0;
   display: grid;
-  justify-items: center;
   grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-  font-size: 24pt;
-  transition: all .5s ease;
-}
-
-.accordion-content i {
-  transition: transform .3s ease-out;
-}
-
-.accordion-content i:hover {
-  transform: scale(1.5);
+  justify-items: center;
+  height: 0;
+  transition: .5s ease;
 }
 
 .accordion-content.active {
   height: auto;
-  padding-block: 2rem;
+  gap: 5rem;
+  padding-block: 2.5rem;
 }
 
-.icon {
-  color: var(--text-color);
+.accordion-item {
+  display: grid;
+  gap: .7rem;
+  text-align: center;
+  transition: transform .4s;
+}
+
+.accordion-item p {
+  letter-spacing: .2rem;
+}
+
+.accordion-item:hover p {
+  color: var(--color-second);
+}
+
+.accordion-item i {
+  font-size: 24pt;
+}
+
+.accordion-item:hover {
+  transform: scale(1.5);
 }
 
 @media (max-width: 768px) {
-  .skills-content {
+  .accordion-container {
     padding-inline: 0;
   }
 
-  .accordion-content {
-    grid-template-columns: repeat(3, 1fr);
+  .accordion-content.active {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, .5);
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 15;
-}
-
-.modal.active {
-  display: flex;
-}
-
-.dialog {
-  background-color: var(--color-primary);
-  padding: 1.75rem;
-  display: flex;
-  flex-direction: column;
-  border-radius: .5rem;
-  gap: 2rem;
-  width: 500px;
-  max-width: 80vw;
-}
-
-.dialog p {
-  font-size: 18pt;
 }
