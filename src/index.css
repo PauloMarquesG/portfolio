@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&family=Pixelify+Sans&family=Roboto&display=swap');
+
+:root,
+[data-theme=dark] {
+    --font-family: 'Roboto', sans-serif;
+    --font-family-pixel: 'Pixelify Sans', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --text-color: #dbe5f5;
+    --text-color-constrast: #13171d;
+    --color-primary: #17a2b8;
+    --color-second: #9ecad1;
+    --color-light: #dbe5f5;
+    --bg-color-primary: #13171d;
+    --bg-color-second: #161b22;
+    --bg-constrast-color-primary: #dbe5f5;
+    --bg-constrast-color-second: #c7d1dd;
+    --bg-color-transparent: rgba(19, 23, 29, .5);
+    --color-danger: #dc3545;
+}
+
+[data-theme=light] {
+    --text-color: #13171d;
+    --text-color-constrast: #dbe5f5;
+    --bg-color-primary: #dbe5f5;
+    --bg-color-second: #c7d1dd;
+    --bg-constrast-color-primary: #13171d;
+    --bg-constrast-color-second: #161b22;
+}

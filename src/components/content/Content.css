@@ -1,0 +1,22 @@
+main{
+    display: flex;
+    padding-inline: 10vw;
+    background-color: var(--bg-color-primary);
+    flex-direction: column;
+}
+
+.title {
+    display: inline-block;
+    position: relative;
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    display: block;
+    bottom: -1rem;
+    width: 80%;
+    height: .5rem;
+    border-radius: 15px;
+    background: linear-gradient(to right, #17a2b8, #9ecad1);
+}

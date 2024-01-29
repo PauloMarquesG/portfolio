@@ -1,0 +1,76 @@
+section.skills {
+  padding-top: 10vh;
+}
+
+.accordion-container {
+  display: grid;
+  gap: 1.4rem;
+  padding-inline: 5rem;
+  padding-block: 4rem;
+}
+
+.accordion-items {
+  display: grid;
+  border-radius: 15px;
+  background-color: var(--bg-color-second);
+}
+
+.accordion-header {
+  display: flex;
+  padding: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion-header .icon {
+  color: var(--text-color);
+}
+
+.accordion-content {
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  height: 0;
+  transition: .5s ease;
+}
+
+.accordion-content.active {
+  height: auto;
+  gap: 5rem;
+  padding-block: 2.5rem;
+}
+
+.accordion-item {
+  display: grid;
+  gap: .7rem;
+  text-align: center;
+  transition: transform .4s;
+}
+
+.accordion-item p {
+  letter-spacing: .2rem;
+}
+
+.accordion-item:hover p {
+  color: var(--color-second);
+}
+
+.accordion-item i {
+  font-size: 24pt;
+}
+
+.accordion-item:hover {
+  transform: scale(1.5);
+}
+
+@media (max-width: 768px) {
+  .accordion-container {
+    padding-inline: 0;
+  }
+
+  .accordion-content.active {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+}

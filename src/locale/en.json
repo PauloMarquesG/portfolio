@@ -1,0 +1,182 @@
+{
+    "translation": {
+        "header": {
+            "title": "Portfolio",
+            "nav": {
+                "about": "About",
+                "skills": "Skills",
+                "projects": "Projects"
+            }
+        },
+        "presentation": {
+            "email": "Contact",
+            "curriculum": "Download CV",
+            "greetings": {
+                "good-morning": "Good morning!",
+                "good-afternoon": "Good afternoon!",
+                "good-evening": "Good evening!",
+                "good-dawn": "Good dawn!"
+            },
+            "welcome": "Welcome!",
+            "title": "Hi, I'm a <b class='emphasis'>Full Stack</b> Developer !",
+            "phrase": "I possess <b class='emphasis'>{{years}}</b> years of programming experience. While my primary focus is on <b class='emphasis'>Back-End</b> development, I cannot deny my passion for crafting captivating interfaces on the <b class='emphasis'>Front-End</b>."
+        },
+        "about": {
+            "title": "About me",
+            "about-info": {
+                "name": "My name is Paulo Marques Gonçalves, I'm {{years}} years old.",
+                "phrase": "I work as a systems analyst at Banco Original, where I am involved in Back-End development using Java and microservices. I also perform maintenance on the Front-End, utilizing HTML, CSS, and JavaScript. Currently, I am pursuing a degree in Systems Analysis and Development at the São Paulo Technology College (FATEC-SP).",
+                "location": "Brazil - BR | São Paulo - SP | East Zone - EZ"
+            }
+        },
+        "skills": {
+            "title": "Skills",
+            "accordion": [
+                {
+                    "id": "0",
+                    "value": "Front-End",
+                    "0": [
+                        {
+                            "id": "react",
+                            "name": "React"
+                        },
+                        {
+                            "id": "html5",
+                            "name": "HTML"
+                        },
+                        {
+                            "id": "css3",
+                            "name": "CSS"
+                        },
+                        {
+                            "id": "javascript",
+                            "name": "JavaScript"
+                        },
+                        {
+                            "id": "typescript",
+                            "name": "TypeScript"
+                        },
+                        {
+                            "id": "bootstrap",
+                            "name": "Bootstrap"
+                        },
+                        {
+                            "id": "angularjs",
+                            "name": "Angular"
+                        }
+                    ]
+                },
+                {
+                    "id": "1",
+                    "value": "Back-End",
+                    "1": [
+                        {
+                            "id": "java",
+                            "name": "Java"
+                        },
+                        {
+                            "id": "spring",
+                            "name": "Spring-Boot"
+                        },
+                        {
+                            "id": "mysql",
+                            "name": "MySQL"
+                        },
+                        {
+                            "id": "php",
+                            "name": "PHP"
+                        },
+                        {
+                            "id": "cplusplus",
+                            "name": "C++"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "value": "Tools",
+                    "2": [
+                        {
+                            "id": "intellij",
+                            "name": "IntelliJ"
+                        },
+                        {
+                            "id": "vscode",
+                            "name": "Visual Studio Code"
+                        },
+                        {
+                            "id": "git",
+                            "name": "Git"
+                        },
+                        {
+                            "id": "github",
+                            "name": "GitHub"
+                        },
+                        {
+                            "id": "gitlab",
+                            "name": "GitLab"
+                        },
+                        {
+                            "id": "confluence",
+                            "name": "Confluence"
+                        }
+                    ]
+                }
+            ]
+        },
+        "portfolio": {
+            "title": "Projects",
+            "view-more": "View more",
+            "projects": [
+                {
+                    "name": "GitHub",
+                    "archive": "github",
+                    "description": "If you're checking out my portfolio, why not take a deeper dive into the code behind the projects? My GitHub is the place where I share my work, collaborations, and experiments. Each repository tells its own story, and I'd be happy if you could have a look.",
+                    "icons": "",
+                    "date": "",
+                    "link_github": "https://github.com/PauloMarquesG",
+                    "link_online": ""
+                },
+                {
+                    "name": "BackBox",
+                    "archive": "backbox",
+                    "description": "This website was developed during my high school years with the aim of providing a comprehensive overview of the Linux distribution BackBox. Here, you will find detailed information and resources that highlight the distinctive features of BackBox, a Linux distribution focused on security.",
+                    "icons": "",
+                    "date": "January 26, 2024",
+                    "link_github": "https://github.com/PauloMarquesG/Project-WebSite-BackBox",
+                    "link_online": "https://paulomarquesg.github.io/Project-WebSite-BackBox/"
+                },
+                {
+                    "name": "Portfolio",
+                    "archive": "portfolio",
+                    "description": "This is my personal portfolio, a dedicated space showcasing my projects. I strive to execute each project with excellence and passion, emphasizing not only the final results but also the creative process involved. Furthermore, within this space, you will find a detailed description of my skills and the programming languages I proficiently command.",
+                    "icons": "",
+                    "date": "January 28, 2024",
+                    "link_github": "https://github.com/PauloMarquesG/portfolio",
+                    "link_online": ""
+                },                
+                {
+                    "name": "API CRUD",
+                    "archive": "exemplo-api-crud",
+                    "description": "This Java CRUD microservice serves as a foundational model for building scalable and efficient services. Developed with simplicity and flexibility in mind, it provides a robust example of constructing microservices for CRUD (Create, Read, Update, Delete) operations.",
+                    "icons": "",
+                    "date": "January 08,2023",
+                    "link_github": "https://github.com/PauloMarquesG/exemplo-api-java",
+                    "link_online": ""
+                },
+                {
+                    "name": "Jogo da Onça",
+                    "archive": "jogoonca",
+                    "description": "This is the development project for the board game 'Jogo da Onça' (Jaguar Game). The proposal for this activity is to transform this game into a digital version, aiming to make it not only a fun experience but also an opportunity for revenue generation. This work is part of the Software Engineering III course, taught by Professor VICTOR ANTONIO TROITINO, at the São Paulo State Technological College.",
+                    "icons": "",
+                    "date": "November 21, 2023",
+                    "link_github": "https://github.com/IES-FATECSP-6sem2-2023",
+                    "link_online": ""
+                }
+            ]
+        },
+        "footer": {
+            "copyRight": "All rights reserved."
+        }
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "translation": {
+        "header": {
+            "title": "Portfólio",
+            "nav": {
+                "about": "Sobre",
+                "skills": "Habilidades",
+                "projects": "Projetos"
+            }
+        },
+        "presentation": {
+            "email": "Contato",
+            "curriculum": "Download CV",
+            "greetings": {
+                "good-morning": "Bom dia!",
+                "good-afternoon": "Boa tarde!",
+                "good-evening": "Boa noite!",
+                "good-dawn": "Boa madrugada!"
+            },
+            "welcome": "Bem-vindo(a)!",
+            "title": "Olá, eu sou desenvolvedor <b class='emphasis'>Full Stack</b> !",
+            "phrase": "Tenho <b class='emphasis'>{{years}}</b> anos de experiência com programação. Minha especialidade está no <b class='emphasis'>Back-End</b>, mas não posso negar minha paixão por criar interfaces cativantes no <b class='emphasis'>Front-End</b>."
+        },
+        "about": {
+            "title": "Sobre mim",
+            "about-info": {
+                "name": "Meu nome é Paulo Marques Gonçalves, tenho {{years}} anos.",
+                "phrase": "Atuo como analista de sistemas no Banco Original, onde sou responsável pelo desenvolvimento do Back-End em Java, utilizando microsserviços. Além disso, realizo a manutenção do Front-End, utilizando as tecnologias HTML, CSS e JavaScript. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na Faculdade de Tecnologia de São Paulo (FATEC-SP).",
+                "location": "Brasil - BR | São Paulo - SP | Zona Leste - ZL"
+            }
+        },
+        "skills": {
+            "title": "Habilidades",
+            "accordion": [
+                {
+                    "id": "0",
+                    "value": "Front-End",
+                    "0": [
+                        {
+                            "id": "react",
+                            "name": "React"
+                        },
+                        {
+                            "id": "html5",
+                            "name": "HTML"
+                        },
+                        {
+                            "id": "css3",
+                            "name": "CSS"
+                        },
+                        {
+                            "id": "javascript",
+                            "name": "JavaScript"
+                        },
+                        {
+                            "id": "typescript",
+                            "name": "TypeScript"
+                        },
+                        {
+                            "id": "bootstrap",
+                            "name": "Bootstrap"
+                        },
+                        {
+                            "id": "angularjs",
+                            "name": "Angular"
+                        }
+                    ]
+                },
+                {
+                    "id": "1",
+                    "value": "Back-End",
+                    "1": [
+                        {
+                            "id": "java",
+                            "name": "Java"
+                        },
+                        {
+                            "id": "spring",
+                            "name": "Spring-Boot"
+                        },
+                        {
+                            "id": "mysql",
+                            "name": "MySQL"
+                        },
+                        {
+                            "id": "php",
+                            "name": "PHP"
+                        },
+                        {
+                            "id": "cplusplus",
+                            "name": "C++"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "value": "Ferramentas",
+                    "2": [
+                        {
+                            "id": "intellij",
+                            "name": "IntelliJ"
+                        },
+                        {
+                            "id": "vscode",
+                            "name": "Visual Studio Code"
+                        },
+                        {
+                            "id": "git",
+                            "name": "Git"
+                        },
+                        {
+                            "id": "github",
+                            "name": "GitHub"
+                        },
+                        {
+                            "id": "gitlab",
+                            "name": "GitLab"
+                        },
+                        {
+                            "id": "confluence",
+                            "name": "Confluence"
+                        }
+                    ]
+                }
+            ]
+        },
+        "portfolio": {
+            "title": "Projetos",
+            "view-more": "Ver mais",
+            "projects": [
+                {
+                    "name": "GitHub",
+                    "archive": "github",
+                    "description": "Se você está explorando meu portfólio, por que não dar uma olhada mais profunda no código por trás dos projetos? Meu GitHub é o lugar onde compartilho meu trabalho, colaborações e experimentos. Cada repositório é uma história em si, e ficaria feliz se você pudesse dar uma olhada.",
+                    "icons": "",
+                    "date": "",
+                    "link_github": "https://github.com/PauloMarquesG",
+                    "link_online": ""
+                },
+                {
+                    "name": "BackBox",
+                    "archive": "backbox",
+                    "description": "Este site foi desenvolvido durante o meu tempo no ensino médio com o objetivo de oferecer uma visão abrangente sobre a distribuição Linux BackBox. Aqui, você encontrará informações detalhadas e recursos que destacam as características distintas do BackBox, uma distribuição Linux focada em segurança.",
+                    "icons": "",
+                    "date": "26 de Janeiro de 2024",
+                    "link_github": "https://github.com/PauloMarquesG/Project-WebSite-BackBox",
+                    "link_online": "https://paulomarquesg.github.io/Project-WebSite-BackBox/"
+                },
+                {
+                    "name": "Portfólio",
+                    "archive": "portfolio",
+                    "description": "Este é o meu portfólio pessoal, um espaço dedicado à exposição dos meus projetos. Busco realizar cada projeto com excelência e paixão, destacando não apenas os resultados finais, mas também o processo criativo envolvido. Além disso, neste espaço, você encontrará uma descrição detalhada das minhas habilidades e das linguagens que domino.",
+                    "icons": "",
+                    "date": "28 de Janeiro de 2024",
+                    "link_github": "https://github.com/PauloMarquesG/portfolio",
+                    "link_online": ""
+                },
+                {
+                    "name": "API CRUD",
+                    "archive": "exemplo-api-crud",
+                    "description": "OEste microsserviço Java CRUD é um modelo base para a implementação de serviços escaláveis e eficientes. Desenvolvido com simplicidade e flexibilidade em mente, ele oferece um exemplo sólido de como construir microsserviços para operações de CRUD (Create, Read, Update, Delete).",
+                    "icons": "",
+                    "date": "08 de Janeiro de 2023",
+                    "link_github": "https://github.com/PauloMarquesG/exemplo-api-java",
+                    "link_online": ""
+                },
+                {
+                    "name": "Jogo da Onça",
+                    "archive": "jogoonca",
+                    "description": "Este é o projeto de desenvolvimento do jogo de tabuleiro 'Jogo da Onça'. A proposta desta atividade é transformar este jogo em uma versão digital, com o objetivo de torná-lo não apenas uma experiência divertida, mas também uma oportunidade de geração de receita. Este trabalho faz parte da disciplina de Engenharia de Software III, ministrada pelo professor VICTOR ANTONIO TROITINO, na Faculdade de Tecnologia de São Paulo.",
+                    "icons": "",
+                    "date": "21 de Novembro de 2023",
+                    "link_github": "https://github.com/IES-FATECSP-6sem2-2023",
+                    "link_online": ""
+                }
+            ]
+        },
+        "footer": {
+            "copyRight": "Todos os direitos reservados."
+        }
+    }
+}

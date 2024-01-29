@@ -1,0 +1,28 @@
+{
+    "translation": {
+        "presentation": {
+            "social": [
+                {
+                    "rel": "Paulo Marques Gonçalves - Linkedin",
+                    "link": "https://www.linkedin.com/in/paulo-marques-gonçalves/",
+                    "name": "linkedin-in"
+                },
+                {
+                    "rel": "Paulo Marques Gonçalves - GitHub",
+                    "link": "https://github.com/PauloMarquesG",
+                    "name": "github"
+                },
+                {
+                    "rel": "Paulo Marques Gonçalves - Behance",
+                    "link": "https://www.behance.net/paulomarques65",
+                    "name": "behance"
+                },
+                {
+                    "rel": "Paulo Marques Gonçalves - Instagram",
+                    "link": "https://www.instagram.com/paulinhn_/",
+                    "name": "instagram"
+                }
+            ]
+        }
+    }
+}
