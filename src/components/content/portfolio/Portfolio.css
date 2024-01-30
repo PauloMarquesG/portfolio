@@ -249,3 +249,11 @@ body.blur::after {
         gap: 2rem;
     }
 }
+
+@media not all and (min-resolution:.001dpcm) { 
+    @media (max-width: 768px) {
+      .project-img {
+        display: none;
+      }
+    }
+  }
