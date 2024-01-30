@@ -244,6 +244,10 @@ body.blur::after {
         flex-direction: column;
     }
 
+    .project-img {
+        display: none;
+    }
+
     .project-infos {
         gap: 2rem;
     }
