@@ -245,7 +245,7 @@ body.blur::after {
     }
 
     .project-img {
-        height: auto;
+        max-height: 10vh;
     }
 
     .project-infos {
