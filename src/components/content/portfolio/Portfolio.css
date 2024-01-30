@@ -154,7 +154,6 @@ body.blur::after {
 
 .project-img {
     display: flex;
-    height: auto;
     flex: 1;
     min-width: 0vw;
     border-radius: 15px;
@@ -250,10 +249,8 @@ body.blur::after {
     }
 }
 
-@media not all and (min-resolution: .001dpcm) {
-    @supports(-webkit-appearance:none) and (stroke-color:transparent) {
-        .project-img {
-            display: none;
-        }
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (min-width: 768px) {
+    .project-img {
+        display: none;
     }
 }
