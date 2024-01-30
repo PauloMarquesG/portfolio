@@ -245,7 +245,7 @@ body.blur::after {
     }
 
     .project-img {
-        max-height: 10vh;
+        max-height: calc(100vw/2);
     }
 
     .project-infos {
