@@ -250,10 +250,10 @@ body.blur::after {
     }
 }
 
-@media not all and (min-resolution:.001dpcm) { 
-    @media (max-width: 768px) {
-      .project-img {
-        display: none;
-      }
+@media not all and (min-resolution: .001dpcm) {
+    @supports(-webkit-appearance:none) and (stroke-color:transparent) {
+        .project-img {
+            display: none;
+        }
     }
-  }
+}
