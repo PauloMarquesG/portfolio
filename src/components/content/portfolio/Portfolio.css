@@ -245,16 +245,10 @@ body.blur::after {
     }
 
     .project-img {
-        display: none;
+        height: auto;
     }
 
     .project-infos {
         gap: 2rem;
-    }
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1) and (min-width: 768px) {
-    .project-img {
-        display: none;
     }
 }
