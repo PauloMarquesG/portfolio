@@ -1,36 +1,28 @@
-# Site Portfólio
+# Web Site Portfólio
 
-![Foto do site do portfólio](assets/foto-portfolio.png)
+![Foto do site do portfólio](public/img/portfolio.png)
 
-# Índice
-- [Site Portfólio](#site-portfólio)
-- [Índice](#índice)
-- [Sobre](#sobre)
-- [Instalação e Utilização](#instalação-e-utilização)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+# Index
+- [About](#about)
+- [Installation](#installation)
+- [Technologies Used](#technologies-used)
 - [License](#license)
 
-# Sobre
+# About
 
-Eu criei um site de portfólio pessoal que usa as tecnologias HTML 5, CSS 3, JavaScript e Bootstrap 5. Ele tem uma interface responsiva que apresenta meus projetos e habilidades de uma forma organizada e clara. O objetivo é fornecer uma visão geral de minhas realizações e experiência na área. Sinta-se livre para clonar o projeto e adaptar
-para seus projetos pessoais ou profissionais.
-Teve uma ideia de como melhorar o código? Me manda uma mensagem e vamos conversar.
+Este é o meu portfólio pessoal, um espaço dedicado à exposição dos meus projetos. Busco realizar cada projeto com excelência e paixão, destacando não apenas os resultados finais, mas também o processo criativo envolvido. Além disso, neste espaço, você encontrará uma descrição detalhada das minhas habilidades e das linguagens que domino.
 
-I created a personal portfolio website using HTML 5, CSS 3, JavaScript, and Bootstrap 5. It has a responsive interface that showcases my projects and skills in an organized and clear manner. The goal is to provide an overview of my accomplishments and experience in the field. Feel free to clone the project and adapt it for your personal or professional projects. Have an idea on how to improve the code? Send me a message and let's talk.
+This is my personal portfolio, a dedicated space showcasing my projects. I strive to execute each project with excellence and passion, emphasizing not only the final results but also the creative process involved. Furthermore, within this space, you will find a detailed description of my skills and the programming languages I proficiently command.
 
-# Instalação e Utilização
+# Installation
 
 ```bash
 git clone https://github.com/PauloMarquesG/portfolio.git
 ```
 
-GitHub Pages: https://paulomarquesg.github.io/portfolio/
-
-# Tecnologias Utilizadas
-- `HTML 5`
-- `CSS 3`
-- `BootStrap 5`
-- `JavaScript`
+# Technologies Used
+- `React.js`
+- `i18next`
 
 # License
 
@@ -38,4 +30,4 @@ GitHub Pages: https://paulomarquesg.github.io/portfolio/
 
 <hr>
 
-<a href="https://github.com/PauloMarquesG" style="color:gray;text-decoration:none;">&copy; Copyright 2023. by - Paulo Marques Gonçalves :]</a>
+<a href="https://paulomarquesg.vercel.app" style="color:gray;text-decoration:none;">&copy; Paulo Marques Gonçalves | All rights reserved.</a>
