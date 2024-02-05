@@ -153,7 +153,7 @@
                     "icons": "",
                     "date": "January 28, 2024",
                     "link_github": "https://github.com/PauloMarquesG/portfolio",
-                    "link_online": ""
+                    "link_online": "#"
                 },                
                 {
                     "name": "API CRUD",
@@ -171,6 +171,15 @@
                     "icons": "",
                     "date": "November 21, 2023",
                     "link_github": "https://github.com/IES-FATECSP-6sem2-2023",
+                    "link_online": ""
+                },
+                {
+                    "name": "API CRUD Node.js ",
+                    "archive": "exemplo-api-crud-node",
+                    "description": "This Node.js API creates a CRUD as a foundational model for implementing scalable and efficient services. Developed with simplicity and flexibility in mind, it provides a robust example of how to build microservices for CRUD operations (Create, Read, Update, Delete).",
+                    "icons": "",
+                    "date": "February 04, 2024",
+                    "link_github": "https://github.com/PauloMarquesG/exemplo-api-nodejs",
                     "link_online": ""
                 }
             ]

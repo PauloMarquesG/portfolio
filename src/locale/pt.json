@@ -153,12 +153,12 @@
                     "icons": "",
                     "date": "28 de Janeiro de 2024",
                     "link_github": "https://github.com/PauloMarquesG/portfolio",
-                    "link_online": ""
+                    "link_online": "#"
                 },
                 {
-                    "name": "API CRUD",
+                    "name": "API CRUD Java",
                     "archive": "exemplo-api-crud",
-                    "description": "OEste microsserviço Java CRUD é um modelo base para a implementação de serviços escaláveis e eficientes. Desenvolvido com simplicidade e flexibilidade em mente, ele oferece um exemplo sólido de como construir microsserviços para operações de CRUD (Create, Read, Update, Delete).",
+                    "description": "Este microsserviço Java CRUD é um modelo base para a implementação de serviços escaláveis e eficientes. Desenvolvido com simplicidade e flexibilidade em mente, ele oferece um exemplo sólido de como construir microsserviços para operações de CRUD (Create, Read, Update, Delete).",
                     "icons": "",
                     "date": "08 de Janeiro de 2023",
                     "link_github": "https://github.com/PauloMarquesG/exemplo-api-java",
@@ -171,6 +171,15 @@
                     "icons": "",
                     "date": "21 de Novembro de 2023",
                     "link_github": "https://github.com/IES-FATECSP-6sem2-2023",
+                    "link_online": ""
+                },
+                {
+                    "name": "API CRUD Node.js ",
+                    "archive": "exemplo-api-crud-node",
+                    "description": "Essa API com Node.js cria um CRUD como modelo base para a implementação de serviços escaláveis e eficientes. Desenvolvido com simplicidade e flexibilidade em mente, ele oferece um exemplo sólido de como construir microsserviços para operações de CRUD (Create, Read, Update, Delete).",
+                    "icons": "",
+                    "date": "04 de Fevereiro de 2024",
+                    "link_github": "https://github.com/PauloMarquesG/exemplo-api-nodejs",
                     "link_online": ""
                 }
             ]
