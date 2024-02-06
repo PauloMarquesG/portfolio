@@ -136,7 +136,7 @@
                     "name": "GitHub",
                     "archive": "github",
                     "description": "Se você está explorando meu portfólio, por que não dar uma olhada mais profunda no código por trás dos projetos? Meu GitHub é o lugar onde compartilho meu trabalho, colaborações e experimentos. Cada repositório é uma história em si, e ficaria feliz se você pudesse dar uma olhada.",
-                    "icons": "",
+                    "icons": [],
                     "date": "",
                     "link_github": "https://github.com/PauloMarquesG",
                     "link_online": ""
@@ -145,7 +145,7 @@
                     "name": "BackBox",
                     "archive": "backbox",
                     "description": "Este site foi desenvolvido durante o meu tempo no ensino médio com o objetivo de oferecer uma visão abrangente sobre a distribuição Linux BackBox. Aqui, você encontrará informações detalhadas e recursos que destacam as características distintas do BackBox, uma distribuição Linux focada em segurança.",
-                    "icons": "",
+                    "icons": ["html5", "css3", "bootstrap", "vscode"],
                     "date": "26 de Janeiro de 2024",
                     "link_github": "https://github.com/PauloMarquesG/Project-WebSite-BackBox",
                     "link_online": "https://paulomarquesg.github.io/Project-WebSite-BackBox/"
@@ -154,7 +154,7 @@
                     "name": "Portfólio",
                     "archive": "portfolio",
                     "description": "Este é o meu portfólio pessoal, um espaço dedicado à exposição dos meus projetos. Busco realizar cada projeto com excelência e paixão, destacando não apenas os resultados finais, mas também o processo criativo envolvido. Além disso, neste espaço, você encontrará uma descrição detalhada das minhas habilidades e das linguagens que domino.",
-                    "icons": "",
+                    "icons": ["react", "vscode"],
                     "date": "28 de Janeiro de 2024",
                     "link_github": "https://github.com/PauloMarquesG/portfolio",
                     "link_online": "#"
@@ -163,7 +163,7 @@
                     "name": "API CRUD Java",
                     "archive": "exemplo-api-crud",
                     "description": "Este microsserviço Java CRUD é um modelo base para a implementação de serviços escaláveis e eficientes. Desenvolvido com simplicidade e flexibilidade em mente, ele oferece um exemplo sólido de como construir microsserviços para operações de CRUD (Create, Read, Update, Delete).",
-                    "icons": "",
+                    "icons": ["java", "spring", "intellij"],
                     "date": "08 de Janeiro de 2023",
                     "link_github": "https://github.com/PauloMarquesG/exemplo-api-java",
                     "link_online": ""
@@ -172,7 +172,7 @@
                     "name": "Jogo da Onça",
                     "archive": "jogoonca",
                     "description": "Este é o projeto de desenvolvimento do jogo de tabuleiro 'Jogo da Onça'. A proposta desta atividade é transformar este jogo em uma versão digital, com o objetivo de torná-lo não apenas uma experiência divertida, mas também uma oportunidade de geração de receita. Este trabalho faz parte da disciplina de Engenharia de Software III, ministrada pelo professor VICTOR ANTONIO TROITINO, na Faculdade de Tecnologia de São Paulo.",
-                    "icons": "",
+                    "icons": ["react" ,"vscode", "java", "intellij"],
                     "date": "21 de Novembro de 2023",
                     "link_github": "https://github.com/IES-FATECSP-6sem2-2023",
                     "link_online": ""
@@ -181,7 +181,7 @@
                     "name": "API CRUD Node.js ",
                     "archive": "exemplo-api-crud-node",
                     "description": "Essa API com Node.js cria um CRUD como modelo base para a implementação de serviços escaláveis e eficientes. Desenvolvido com simplicidade e flexibilidade em mente, ele oferece um exemplo sólido de como construir microsserviços para operações de CRUD (Create, Read, Update, Delete).",
-                    "icons": "",
+                    "icons": ["nodejs", "mysql", "docker", "vscode"],
                     "date": "04 de Fevereiro de 2024",
                     "link_github": "https://github.com/PauloMarquesG/exemplo-api-nodejs",
                     "link_online": ""

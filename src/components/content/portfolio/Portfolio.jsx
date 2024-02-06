@@ -49,7 +49,11 @@ function Portfolio() {
                             <img src={`/img/${item.archive}.png`} alt="" />
                             <div className='details'>
                                 <h3>{item.name}</h3>
-                                <p>{item.icons}</p>
+                                <div className="icons">
+                                    {item.icons.map(icon => (
+                                        <i key={icon} className={`devicon-${icon}-plain`} />
+                                    ))}
+                                </div>
                             </div>
                         </div>
                         <div className='description'>

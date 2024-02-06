@@ -136,7 +136,7 @@
                     "name": "GitHub",
                     "archive": "github",
                     "description": "If you're checking out my portfolio, why not take a deeper dive into the code behind the projects? My GitHub is the place where I share my work, collaborations, and experiments. Each repository tells its own story, and I'd be happy if you could have a look.",
-                    "icons": "",
+                    "icons": [],
                     "date": "",
                     "link_github": "https://github.com/PauloMarquesG",
                     "link_online": ""
@@ -145,7 +145,7 @@
                     "name": "BackBox",
                     "archive": "backbox",
                     "description": "This website was developed during my high school years with the aim of providing a comprehensive overview of the Linux distribution BackBox. Here, you will find detailed information and resources that highlight the distinctive features of BackBox, a Linux distribution focused on security.",
-                    "icons": "",
+                    "icons": ["html5", "css3", "bootstrap", "vscode"],
                     "date": "January 26, 2024",
                     "link_github": "https://github.com/PauloMarquesG/Project-WebSite-BackBox",
                     "link_online": "https://paulomarquesg.github.io/Project-WebSite-BackBox/"
@@ -154,7 +154,7 @@
                     "name": "Portfolio",
                     "archive": "portfolio",
                     "description": "This is my personal portfolio, a dedicated space showcasing my projects. I strive to execute each project with excellence and passion, emphasizing not only the final results but also the creative process involved. Furthermore, within this space, you will find a detailed description of my skills and the programming languages I proficiently command.",
-                    "icons": "",
+                    "icons": ["react", "vscode"],
                     "date": "January 28, 2024",
                     "link_github": "https://github.com/PauloMarquesG/portfolio",
                     "link_online": "#"
@@ -163,7 +163,7 @@
                     "name": "API CRUD",
                     "archive": "exemplo-api-crud",
                     "description": "This Java CRUD microservice serves as a foundational model for building scalable and efficient services. Developed with simplicity and flexibility in mind, it provides a robust example of constructing microservices for CRUD (Create, Read, Update, Delete) operations.",
-                    "icons": "",
+                    "icons": ["java", "spring", "intellij"],
                     "date": "January 08,2023",
                     "link_github": "https://github.com/PauloMarquesG/exemplo-api-java",
                     "link_online": ""
@@ -172,7 +172,7 @@
                     "name": "Jogo da Onça",
                     "archive": "jogoonca",
                     "description": "This is the development project for the board game 'Jogo da Onça' (Jaguar Game). The proposal for this activity is to transform this game into a digital version, aiming to make it not only a fun experience but also an opportunity for revenue generation. This work is part of the Software Engineering III course, taught by Professor VICTOR ANTONIO TROITINO, at the São Paulo State Technological College.",
-                    "icons": "",
+                    "icons": ["react" ,"vscode", "java", "intellij"],
                     "date": "November 21, 2023",
                     "link_github": "https://github.com/IES-FATECSP-6sem2-2023",
                     "link_online": ""
@@ -181,7 +181,7 @@
                     "name": "API CRUD Node.js ",
                     "archive": "exemplo-api-crud-node",
                     "description": "This Node.js API creates a CRUD as a foundational model for implementing scalable and efficient services. Developed with simplicity and flexibility in mind, it provides a robust example of how to build microservices for CRUD operations (Create, Read, Update, Delete).",
-                    "icons": "",
+                    "icons": ["nodejs", "mysql", "docker", "vscode"],
                     "date": "February 04, 2024",
                     "link_github": "https://github.com/PauloMarquesG/exemplo-api-nodejs",
                     "link_online": ""
