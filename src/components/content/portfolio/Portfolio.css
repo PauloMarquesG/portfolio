@@ -155,7 +155,6 @@ body.blur::after {
 .project-img {
     display: flex;
     flex: 1;
-    min-width: 0vw;
     border-radius: 15px;
 }
 
