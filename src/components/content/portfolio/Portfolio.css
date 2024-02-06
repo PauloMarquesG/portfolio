@@ -236,7 +236,7 @@ body.blur::after {
 }
 
 .icons i {
-    color: var(--text-color);
+    color: var(--color-light);
 }
 
 @media (max-width: 768px) {
