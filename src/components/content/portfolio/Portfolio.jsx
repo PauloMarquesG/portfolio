@@ -30,7 +30,7 @@ function Portfolio() {
                     </div>
                 </div>
                 <div className="project-links">
-                    <a href={projectModal.link_online} className={`p-link ${projectModal.link_online ? '' : 'disabled'} website`}>
+                    <a href={projectModal.link_online} target='_blank' className={`p-link ${projectModal.link_online ? '' : 'disabled'} website`}>
                         <i class="fa-solid fa-link"></i>
                     </a>
                     <a href={projectModal.link_github} className='p-link github'>
