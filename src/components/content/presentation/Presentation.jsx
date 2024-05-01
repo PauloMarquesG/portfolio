@@ -28,7 +28,7 @@ function Presentation() {
                     <div className='name-rotate'>
                         <p>Paulo</p> <h3>Marques</h3> <p>Gonçalves</p>
                     </div>
-                    <img src="https://avatars.githubusercontent.com/u/82685447?v=4" alt="Foto Paulo Marques Gonçalves" />
+                    <img src="https://media.licdn.com/dms/image/D4D03AQGJSdfPsVUNwg/profile-displayphoto-shrink_800_800/0/1714603163645?e=1720051200&v=beta&t=kbqud8CRWi8lTule2U9EuycCh33qBx6qR7EaYx22hKI" alt="Foto Paulo Marques Gonçalves" />
                 </div>
                 <div className='text-intro'>
                     <h1 className='title'>{greetings}</h1>
