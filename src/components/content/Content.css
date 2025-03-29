@@ -18,5 +18,5 @@ main{
     width: 80%;
     height: .5rem;
     border-radius: 15px;
-    background: linear-gradient(to right, #17a2b8, #9ecad1);
+    background: linear-gradient(to right, var(--color-primary), var(--color-second));
 }

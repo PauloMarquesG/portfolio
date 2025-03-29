@@ -12,7 +12,7 @@ section.skills {
 .accordion-items {
   display: grid;
   border-radius: 15px;
-  background-color: var(--bg-color-second);
+  background: linear-gradient(to right, var(--bg-color-primary), var(--bg-color-second));
 }
 
 .accordion-header {
@@ -58,10 +58,24 @@ section.skills {
 
 .accordion-item i {
   font-size: 24pt;
+  background: linear-gradient(45deg, var(--color-primary), var(--color-second));
+  background-clip: text;
+  color: transparent;
 }
 
 .accordion-item:hover {
   transform: scale(1.5);
+}
+
+@media (max-width: 1020px) {
+  .accordion-container {
+    padding-inline: 0;
+  }
+
+  .accordion-content.active {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
 }
 
 @media (max-width: 768px) {

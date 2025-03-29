@@ -25,7 +25,7 @@
             "title": "About me",
             "about-info": {
                 "name": "My name is Paulo Marques Gonçalves, I'm {{years}} years old.",
-                "phrase": "I work as a systems analyst at Banco Original, where I am involved in Back-End development using Java and microservices. I also perform maintenance on the Front-End, utilizing HTML, CSS, and JavaScript. Currently, I am pursuing a degree in Systems Analysis and Development at the São Paulo Technology College (FATEC-SP).",
+                "phrase": "I work as a Systems Analyst Jr. at Banco Original, where I am involved in Back-End development using Java and microservices. I also perform maintenance on the Front-End, utilizing HTML, CSS, and JavaScript. Currently, I am pursuing a degree in Systems Analysis and Development at the São Paulo Technology College (FATEC-SP).",
                 "location": "Brazil - BR | São Paulo - SP | East Zone - EZ"
             }
         },
@@ -91,8 +91,8 @@
                             "name": "PHP"
                         },
                         {
-                            "id": "cplusplus",
-                            "name": "C++"
+                            "id": "csharp",
+                            "name": "C#"
                         }
                     ]
                 },
@@ -105,12 +105,20 @@
                             "name": "IntelliJ"
                         },
                         {
+                            "id": "rider",
+                            "name": "Rider"
+                        },
+                        {
                             "id": "vscode",
                             "name": "Visual Studio Code"
                         },
                         {
                             "id": "git",
                             "name": "Git"
+                        },
+                        {
+                            "id": "azure",
+                            "name": "Azure"
                         },
                         {
                             "id": "github",

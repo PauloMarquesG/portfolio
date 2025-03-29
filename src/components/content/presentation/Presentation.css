@@ -39,7 +39,8 @@ section.presentation {
 }
 
 .photo-name img {
-    border-radius: 45%;
+    border-radius: 25%;
+    box-shadow: 0px 0px 20px 5px var(--bg-color-second);
 }
 
 .btn-presentation {
@@ -89,7 +90,6 @@ section.presentation {
     opacity: .5;
     border-radius: 50%;
     transition: all .4s;
-    background-color: var(--bg-color-second);
 }
 
 .social a:hover {
