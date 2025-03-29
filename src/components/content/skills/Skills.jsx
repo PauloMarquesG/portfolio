@@ -38,7 +38,7 @@ function Skills() {
                                 
                                 <div key={innerIndex} className='accordion-item'>
                                     <p>{item.name}</p>
-                                    <i className={`devicon-${item.id}-plain colored`} />
+                                    <i className={`devicon-${item.id}-plain`} />
                                 </div>
 
                             ))}

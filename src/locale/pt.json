@@ -25,7 +25,7 @@
             "title": "Sobre mim",
             "about-info": {
                 "name": "Meu nome é Paulo Marques Gonçalves, tenho {{years}} anos.",
-                "phrase": "Atuo como analista de sistemas no Banco Original, onde sou responsável pelo desenvolvimento do Back-End em Java, utilizando microsserviços. Além disso, realizo a manutenção do Front-End, utilizando as tecnologias HTML, CSS e JavaScript. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na Faculdade de Tecnologia de São Paulo (FATEC-SP).",
+                "phrase": "Atuo como Analista de Sistemas Jr. no Banco Original, onde sou responsável pelo desenvolvimento do Back-End em Java, utilizando microsserviços. Além disso, realizo a manutenção do Front-End, utilizando as tecnologias HTML, CSS e JavaScript. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na Faculdade de Tecnologia de São Paulo (FATEC-SP).",
                 "location": "Brasil - BR | São Paulo - SP | Zona Leste - ZL"
             }
         },
@@ -91,8 +91,8 @@
                             "name": "PHP"
                         },
                         {
-                            "id": "cplusplus",
-                            "name": "C++"
+                            "id": "csharp",
+                            "name": "C#"
                         }
                     ]
                 },
@@ -105,12 +105,20 @@
                             "name": "IntelliJ"
                         },
                         {
+                            "id": "rider",
+                            "name": "Rider"
+                        },
+                        {
                             "id": "vscode",
                             "name": "Visual Studio Code"
                         },
                         {
                             "id": "git",
                             "name": "Git"
+                        },
+                        {
+                            "id": "azure",
+                            "name": "Azure"
                         },
                         {
                             "id": "github",
