@@ -12,7 +12,7 @@ section.skills {
 .accordion-items {
   display: grid;
   border-radius: 15px;
-  background: linear-gradient(to right, var(--bg-color-primary), var(--bg-color-second));
+  background: linear-gradient(to right, var(--bg-constrast), var(--bg-color-second));
 }
 
 .accordion-header {

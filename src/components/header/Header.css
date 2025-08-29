@@ -4,6 +4,7 @@ header {
     width: 100vw;
     z-index: 1;
     height: 8vh;
+    opacity: 98%;
     background-color: var(--bg-color-primary);
 }
 

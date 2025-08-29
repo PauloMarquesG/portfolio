@@ -57,7 +57,7 @@ section.presentation {
     box-shadow: 2px 2px 0 var(--color-primary);
     border-radius: 15px;
     transition: all .4s;
-    background: linear-gradient(to left, var(--bg-color-primary), var(--bg-color-second));
+    background: linear-gradient(to right, var(--bg-constrast), var(--bg-color-second));
 }
 
 .btn-presentation .btn:hover {

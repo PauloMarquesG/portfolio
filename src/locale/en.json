@@ -25,12 +25,12 @@
             "title": "About me",
             "about-info": {
                 "name": "My name is Paulo Marques Gonçalves, I'm {{years}} years old.",
-                "phrase": "I work as a Systems Analyst Jr. at Banco Original, where I am involved in Back-End development using Java and microservices. I also perform maintenance on the Front-End, utilizing HTML, CSS, and JavaScript. Currently, I am pursuing a degree in Systems Analysis and Development at the São Paulo Technology College (FATEC-SP).",
-                "location": "Brazil - BR | São Paulo - SP | East Zone - EZ"
+                "phrase": "I work as a Junior Systems Analyst at Banco Original, where I am responsible for back-end development in Java and C#, using a microservices architecture. In addition, I maintain the front-end with HTML, CSS, and JavaScript. I hold a degree in Systems Analysis and Development from the São Paulo State Faculty of Technology (FATEC-SP).",
+                "location": "Brazil - BR | São Paulo - SP | Praia Grande"
             }
         },
         "skills": {
-            "title": "Skills",
+            "title": "Habilidades",
             "accordion": [
                 {
                     "id": "0",
@@ -39,6 +39,10 @@
                         {
                             "id": "react",
                             "name": "React"
+                        },
+                        {
+                            "id": "angularjs",
+                            "name": "Angular"
                         },
                         {
                             "id": "html5",
@@ -59,10 +63,6 @@
                         {
                             "id": "bootstrap",
                             "name": "Bootstrap"
-                        },
-                        {
-                            "id": "angularjs",
-                            "name": "Angular"
                         }
                     ]
                 },
@@ -75,31 +75,41 @@
                             "name": "Java"
                         },
                         {
-                            "id": "spring",
-                            "name": "Spring-Boot"
+                            "id": "csharp",
+                            "name": "C#"
                         },
                         {
                             "id": "nodejs",
                             "name": "Node.js"
                         },
                         {
-                            "id": "mysql",
-                            "name": "MySQL"
-                        },
-                        {
-                            "id": "php",
-                            "name": "PHP"
-                        },
-                        {
-                            "id": "csharp",
-                            "name": "C#"
+                            "id": "spring",
+                            "name": "Spring-Boot"
                         }
                     ]
                 },
                 {
                     "id": "2",
-                    "value": "Tools",
+                    "value": "DataBase",
                     "2": [
+                        {
+                            "id": "mysql",
+                            "name": "MySQL"
+                        },
+                        {
+                            "id": "postgresql",
+                            "name": "PostgreSQL"
+                        },
+                        {
+                            "id": "redis",
+                            "name": "Redis"
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "value": "Ferramentas",
+                    "3": [
                         {
                             "id": "intellij",
                             "name": "IntelliJ"
@@ -121,12 +131,16 @@
                             "name": "Azure"
                         },
                         {
-                            "id": "github",
-                            "name": "GitHub"
+                            "id": "amazonwebservices",
+                            "name": "AWS"
                         },
                         {
-                            "id": "gitlab",
-                            "name": "GitLab"
+                            "id": "kubernetes",
+                            "name": "Kubernetes"
+                        },
+                        {
+                            "id": "github",
+                            "name": "GitHub"
                         },
                         {
                             "id": "confluence",

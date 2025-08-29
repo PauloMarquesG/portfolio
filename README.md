@@ -3,6 +3,8 @@
 ![Foto do site do portfólio](public/img/portfolio.png)
 
 # Index
+- [Web Site Portfólio](#web-site-portfólio)
+- [Index](#index)
 - [About](#about)
 - [Installation](#installation)
 - [Technologies Used](#technologies-used)
@@ -18,6 +20,10 @@ This is my personal portfolio, a dedicated space showcasing my projects. I striv
 
 ```bash
 git clone https://github.com/PauloMarquesG/portfolio.git
+```
+```bash
+npm install
+npm run dev
 ```
 
 # Technologies Used

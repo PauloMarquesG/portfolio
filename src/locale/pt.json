@@ -25,8 +25,8 @@
             "title": "Sobre mim",
             "about-info": {
                 "name": "Meu nome é Paulo Marques Gonçalves, tenho {{years}} anos.",
-                "phrase": "Atuo como Analista de Sistemas Jr. no Banco Original, onde sou responsável pelo desenvolvimento do Back-End em Java, utilizando microsserviços. Além disso, realizo a manutenção do Front-End, utilizando as tecnologias HTML, CSS e JavaScript. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na Faculdade de Tecnologia de São Paulo (FATEC-SP).",
-                "location": "Brasil - BR | São Paulo - SP | Zona Leste - ZL"
+                "phrase": "Atuo como Analista de Sistemas Jr. no Banco Original, onde sou responsável pelo desenvolvimento do Back-End em Java e C#, utilizando arquitetura de microsserviços. Além disso, realizo a manutenção do Front-End com HTML, CSS e JavaScript. Sou formado em Análise e Desenvolvimento de Sistemas pela Faculdade de Tecnologia de São Paulo (FATEC-SP).",
+                "location": "Brasil - BR | São Paulo - SP | Praia Grande"
             }
         },
         "skills": {
@@ -39,6 +39,10 @@
                         {
                             "id": "react",
                             "name": "React"
+                        },
+                        {
+                            "id": "angularjs",
+                            "name": "Angular"
                         },
                         {
                             "id": "html5",
@@ -59,10 +63,6 @@
                         {
                             "id": "bootstrap",
                             "name": "Bootstrap"
-                        },
-                        {
-                            "id": "angularjs",
-                            "name": "Angular"
                         }
                     ]
                 },
@@ -75,31 +75,41 @@
                             "name": "Java"
                         },
                         {
-                            "id": "spring",
-                            "name": "Spring-Boot"
+                            "id": "csharp",
+                            "name": "C#"
                         },
                         {
                             "id": "nodejs",
                             "name": "Node.js"
                         },
                         {
-                            "id": "mysql",
-                            "name": "MySQL"
-                        },
-                        {
-                            "id": "php",
-                            "name": "PHP"
-                        },
-                        {
-                            "id": "csharp",
-                            "name": "C#"
+                            "id": "spring",
+                            "name": "Spring-Boot"
                         }
                     ]
                 },
                 {
                     "id": "2",
-                    "value": "Ferramentas",
+                    "value": "Banco de Dados",
                     "2": [
+                        {
+                            "id": "mysql",
+                            "name": "MySQL"
+                        },
+                        {
+                            "id": "postgresql",
+                            "name": "PostgreSQL"
+                        },
+                        {
+                            "id": "redis",
+                            "name": "Redis"
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "value": "Ferramentas",
+                    "3": [
                         {
                             "id": "intellij",
                             "name": "IntelliJ"
@@ -121,12 +131,16 @@
                             "name": "Azure"
                         },
                         {
-                            "id": "github",
-                            "name": "GitHub"
+                            "id": "amazonwebservices",
+                            "name": "AWS"
                         },
                         {
-                            "id": "gitlab",
-                            "name": "GitLab"
+                            "id": "kubernetes",
+                            "name": "Kubernetes"
+                        },
+                        {
+                            "id": "github",
+                            "name": "GitHub"
                         },
                         {
                             "id": "confluence",
