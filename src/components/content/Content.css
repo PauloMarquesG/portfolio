@@ -1,6 +1,6 @@
 main{
     display: flex;
-    padding-inline: 10vw;
+    padding-inline: 20vw;
     background-color: var(--bg-color-primary);
     flex-direction: column;
 }
@@ -19,4 +19,22 @@ main{
     height: .5rem;
     border-radius: 15px;
     background: linear-gradient(to right, var(--color-primary), var(--color-second));
+}
+
+section.projects,
+section.skills,
+section.presentation,
+section.about {
+    padding-top: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    section.projects,
+    section.skills,
+    section.presentation,
+    section.about {
+        padding-inline: 0vw;
+    }
 }

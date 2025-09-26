@@ -60,6 +60,27 @@ header {
     transition: 0.3s;
 }
 
+.language{
+    display: flex;
+    background-color: var(--bg-color-second);
+    border-radius: 15px;
+    box-shadow: 2px 2px 0 var(--bg-constrast);
+    padding: .2rem .2em;
+}
+
+.language p {
+    font-size: 14pt;
+    cursor: pointer;
+    margin: 0 .5rem;
+    padding: .5rem 1rem;
+    transition: all .4s;
+}
+
+.en-us.disabled,
+.pt-br.disabled {
+    opacity: .5;
+}
+
 @media (max-width: 768px) {
     header {
         top: auto;

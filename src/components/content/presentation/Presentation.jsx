@@ -28,7 +28,7 @@ function Presentation() {
                     <div className='name-rotate'>
                         <p>Paulo</p> <h3>Marques</h3> <p>Gonçalves</p>
                     </div>
-                    <img src="/img/foto-paulo.png" alt="Foto Paulo Marques Gonçalves" />
+                    <img src="/img/foto-paulo.jpg" alt="Foto Paulo Marques Gonçalves" />
                 </div>
                 <div className='text-intro'>
                     <h1 className='title'>{greetings}</h1>
@@ -41,10 +41,6 @@ function Presentation() {
                 </div>
             </div>
             <div className='info'>
-                <div className='language'>
-                    <abbr title="PT-BR"><button className={`pt-br ${language === 'pt' ? '' : 'disabled'}`} type="button" onClick={() => { changeLanguage('pt') }} disabled={language === 'pt'}></button></abbr>
-                    <abbr title="EN-US"><button className={`en-us ${language === 'en' ? '' : 'disabled'}`} type="button" onClick={() => { changeLanguage('en') }} disabled={language === 'en'}></button></abbr>
-                </div>
                 <div className='social'>
                     {t("presentation.social", { returnObjects: true }).map((item, index) => (
                         <abbr key={index} title={item.rel}>

@@ -17,5 +17,6 @@ footer a {
 @media (max-width: 768px) {
     footer{
         margin-bottom: 8vh;
+        padding-inline: 10vw;
     }
 }

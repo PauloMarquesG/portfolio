@@ -7,7 +7,7 @@ function Header() {
 
     const { toggleTheme, theme } = useToggleTheme();
 
-    const { t } = useTranslation();
+    const { t, i18n: { changeLanguage, language } } = useTranslation();
 
     const handleHamburger = () => {
         const nav = document.querySelector('.nav');
@@ -20,6 +20,10 @@ function Header() {
                 <button className={`toggleTheme ${theme === 'dark' ? 'dark' : ''}`} onClick={toggleTheme}>
                     {theme === 'dark' ? <i className="fa-solid fa-moon"></i> : <i className="fa-solid fa-sun"></i>}
                 </button>
+                <div className='language'>
+                    <p className={`pt-br ${language === 'pt' ? '' : 'disabled'}`} onClick={() => changeLanguage('pt')}>PT</p>
+                    <p className={`en-us ${language === 'en' ? '' : 'disabled'}`} onClick={() => changeLanguage('en')}>EN</p>
+                </div>
                 <h1 className='title-nav'><a href="#">{t("header.title")}</a></h1>
                 <button onClick={handleHamburger} className='hamburger'></button>
                 <ul className='nav-list'>
